@@ -51,6 +51,8 @@
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/foundation.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/foundation.equalizer.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/slick.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/modernizr.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.mmenu.min.js"></script>
 <script>
     $(document).foundation({
         equalizer : {
@@ -58,33 +60,12 @@
         }       
     });
     $(document).ready(function(){
-        $('#device-menu').sidr({
-            name: 'sidr-left',
-            body: '.device-only',
-            side: 'left',
-            source: '.menu-nav-header'
-        });
-        
-        $('#more-menu').sidr({
-            name: 'sidr-inner',
-            body: '.false-body',
-            renaming: false,
-            side: 'new',
-            source: '.more-menu-nav-header'
-        });
-   
-        $('#device-more-menu').sidr({
-            name: 'sidr-right',
-            body: '.device-only',
-            side: 'right',
-            renaming: false,
-            source: '.more-menu-nav-header'
-        });
-        $('#more-menu').click(function(){
-        $('.header-logo').toggleClass('arrow-up');
-        $('.introduction').toggleClass('arrow-down');
-        $('.sidr.new').toggleClass('menu-down');
-    });
+            $("#more-menu").mmenu({
+         offCanvas: {
+            position  : "bottom",
+            zposition : "front"
+         }
+      });
     $('.home-block-2-slider-scroll').slick({
         infinite: true,
         slidesToShow: 3,
