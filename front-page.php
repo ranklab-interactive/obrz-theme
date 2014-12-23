@@ -19,13 +19,13 @@ Template Name: Homepage template
 </div>
     <div class="wide-container" data-equalizer>
         <div class="large-2 columns home-block-1-3 large-text-left right">
-            <div class="small-3 large-12 columns">
+            <div class="small-12 medium-3 large-12 columns">
                 <div  data-equalizer-watch>
                     <h2><small>SEE HOW WE CAN HELP</small></h2>
                 </div>
-                <a class="button home-block-button hide-for-medium-down">--></a>
+                <a class="button home-block-button hide-for-medium-only">--></a>
             </div>
-            <div class="small-9 columns hide-for-large-up">
+            <div class="small-9 columns show-for-medium-only">
                 <div>
                     <h2><small>SEE HOW WE CAN HELP</small></h2>
                 </div>

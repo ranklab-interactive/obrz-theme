@@ -53,7 +53,7 @@ div[class*="home-block-1-"]{padding: 25px;text-align: center;}
 .home-block-button{background:transparent;border-width:1px;border-color:#ffffff;border-style:solid;margin-top: 69px;}
 
 /*//___Home Content Block 2___\\*/
-.home-block-2{background: url('../images/sand-bg.png')}
+.home-block-2{background: url('../images/sand-bg.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;}
 .home-block-slider{}
 .home-block-2-slider-block{}
 .home-slide-content{border-width:1px;border-color:#b4b4b4;border-style:solid; background: #FFF;}
