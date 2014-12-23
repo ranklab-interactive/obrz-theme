@@ -67,8 +67,14 @@ Template Name: Homepage template
                         <div class="row">
                             <div class="small-12 columns small-centered">
                                 <div  class="small-12 columns text-left" data-equalizer-watch>
-                                <p class="testimonial-quote">“ Testimonial, Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non. ”</p>
-                                <p class="testimonial-author">– QUOTE AUTHOR</p>
+                                    <?php $args=array('post_type'=>'testimonials', 'orderby'=>'rand', 'posts_per_page'=>'1');
+$testimonials=new WP_Query($args);
+while ($testimonials->have_posts()) : $testimonials->the_post();?>
+                                    <p class="testimonial-quote">“<?php echo get_the_content(); ?>”</p>
+                                <p class="testimonial-author">– <?php the_title(); ?></p>
+    <?php
+endwhile;
+wp_reset_postdata(); ?>
                                 </div>
                                 <button class="home-block-button button-blue">TESTIMONIALS</button>
                             </div>

@@ -35,13 +35,32 @@
                 <?php wp_nav_menu(array('menu' => 'Footer Menu 2', 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns"><h3>WHAT WE TREAT</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
                 <?php wp_nav_menu(array("menu" => "Footer Menu 3", 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns "><h3>TREATMENT</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
                                 <?php wp_nav_menu(array("menu" => "Footer Menu 4", 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns"><h3>QUICK LINKS</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
-
+                
             </div>
         </div>
         <div class="small-12 columns footer-block-3">
-        <div class="row pad">
-            <div id="copyright">&copy;<?php echo date("Y "); echo stripslashes(get_option('ranklab_copyright')); ?></div>
-        </div>
+            <div class="row">
+                <div id="copyright" class="small-12 medium-7 columns pad">Ocean Breeze &copy;<?php echo date("Y "); echo stripslashes(get_option('ranklab_copyright')); ?> - Address Here</div>
+                <div id="social-media" class="small-12 medium-4 columns">
+                    <div class="row">
+                        <div class="small-2 columns small-offset-2 pad">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-fb.png" /></a>
+                        </div>
+                        <div class="small-2 columns pad">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-twitter.png" /></a>
+                        </div>
+                        <div class="small-2 columns pad">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-gplus.png" /></a>
+                        </div>
+                        <div class="small-2 columns pad">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-pin.png" /></a>
+                        </div>
+                        <div class="small-2 columns pad">
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-yt.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </div><!-- end footer-container -->
@@ -59,44 +78,49 @@
         }       
     });
     $(document).ready(function(){
-            $("#main-nav").mmenu({
-         offCanvas: {
-            position  : "bottom",
-            zposition : "front"
-         }
-      });
-    $('.home-block-2-slider-scroll').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        useCSS: false,
-        responsive: [
-            {
-                breakpoint: 1440,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
+        //            $("#more-main-nav").mmenu({
+        //         offCanvas: {
+        //            pageNodetype: "header",
+        //            position  : "top",
+        //            zposition : "front"
+        //         }
+        //            });
+        //            
+        //      $("#more-menu").click(function() {
+        //         $("#more-main-nav").trigger("open.mm");
+        //      });
+        $('.home-block-2-slider-scroll').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            adaptiveHeight: true,
+            useCSS: false,
+            responsive: [
+                {
+                    breakpoint: 1440,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-            },
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 640,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
+            ]
+        });
     });
 </script>
 </body>
