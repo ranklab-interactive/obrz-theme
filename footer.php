@@ -1,8 +1,8 @@
 <div class="wide-container">
     <footer class="large-12 columns no-space">
-        <div class="small-12 columns footer-block-1 pad" data-equalizer>
-            <div class="row pad">
-                <div class="medium-4 columns footer-block-1-1 text-center" data-equalizer-watch>
+        <div class="small-12 columns footer-block-1 pad">
+            <div class="row pad valign-middle">
+                <div class="medium-4 columns footer-block-1-1 text-center centered">
                     <h4>TRUSTED CARE</h4>
                     <div class="row">
                         <div class="small-12 columns text-center">
@@ -10,10 +10,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="medium-4 columns text-center pad" data-equalizer-watch>
-                    <h2><strong>Questions?</strong> Give us a Call</h2>
+                <div class="medium-4 columns footer-block-1-2 text-center centered">
+                    <h2 class="pad"><strong>Questions?</strong> Give us a Call</h2>
                 </div>
-                <div class="medium-4 columns text-center pad" data-equalizer-watch>
+                <div class="medium-4 columns footer-block-1-3 text-center centered pad">
                     <button>888-123-4567</button>
                 </div>
             </div>

@@ -97,15 +97,16 @@ footer{background: #1f6aa6;}
 .footer-logo .small-block-grid-2 > li{padding: 0 0 0.625em}
 .footer-logo .small-block-grid-2 > li > img{height: 4.4rem;}
 .footer-logo{margin-top: -100px;}
-.copyright{background: #FFF;}
+#copyright{color:#FFF;font-size:1.125em;font-weight:normal;letter-spacing:1px}
 /*//___Footer Block 1___\\*/
 .footer-block-1{ background: #fafafa;padding-bottom: 100px !important;}
 .footer-block-1 button{font-size: 2em;}
 .footer-block-1-1 h4{color: #b4b4b4;}
+.footer-block-1-2, .footer-block-1-3{}
 /*//___Footer Block 2___\\*/
 .footer-block-2{}
 .footer-block-2 .no-bullet a{color: #b4b4b4;}
-.footer-block-2 h3{color: #FFF;}
+.footer-block-2 h3{color:#FFF;font-size:1.25em;letter-spacing:0.125em}
 /*//___Footer Block 3___\\*/
 .footer-block-3{background: #0d3242;}
 
