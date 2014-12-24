@@ -5,7 +5,7 @@
  */
 ?>
 <div class="home-block-2-slider">
-    <div class="small-12 columns pad">
+    <div class="small-12 columns small-centered pad">
         <div class="home-block-2-slider-scroll">
             <div class="home-block-2-slider-block text-left">
                 <div class="home-slide-content text-left">    
