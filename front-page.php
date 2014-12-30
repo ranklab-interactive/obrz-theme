@@ -17,7 +17,7 @@ Template Name: Homepage template
         </div>
     </div>
 </div>
-<div class="wide-container" data-equalizer>
+<div class="wide-container clearfix" data-equalizer>
     <div class="medium-2 columns home-block-1-3 text-center right">
         <div class="small-12 columns">
             <div  data-equalizer-watch class="home-block-1-content">
@@ -43,7 +43,7 @@ Template Name: Homepage template
         <a class="button home-block-button">Learn More</a>
     </div>
 </div>
-<div class="wide-container home-block-2">
+<div class="wide-container home-block-2 clearfix">
     <div class="row">
         <div class="small-12 columns pad">
             <div class="small-12 columns home-block-2-header text-center small-centered">
@@ -59,7 +59,7 @@ Template Name: Homepage template
                      <?php include (TEMPLATEPATH . '/library/includes/home-slide.php'); ?> 
     </div>
 </div>
-<div class="wide-container home-block-3">
+<div class="wide-container home-block-3 clearfix">
     <div class="small-12 columns pad">
         <div class="row pad">
             <div class="small-12 columns text-center">
