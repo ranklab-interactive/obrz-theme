@@ -47,7 +47,7 @@
                         <div class="medium-12 columns main-menu-block">
                             <div class="large-9 columns no-space valign-middle">
                                 <nav id="main-nav" class="hide-for-small centered" role="navigation">
-                                <?php wp_nav_menu(array('menu' => 'Main Menu', 'menu_class' => 'main-nav-menu', 'depth' => 1, 'items_wrap' => '<div class="menu-nav-header"><ul class="small-text-center medium-text-left">%3$s<li id="menu-item" class="nav-menu-more menu-item menu-item-type-post_type menu-item-object-page page_item"><a href="#my-menu" id="more-menu" style="">MORE</a></li></ul></div>')); ?>
+                                <?php wp_nav_menu(array('menu' => 'Main Menu', 'menu_class' => 'main-nav-menu', 'depth' => 1, 'items_wrap' => '<div class="menu-nav-header"><ul class="small-text-center large-text-left">%3$s<li id="menu-item" class="nav-menu-more menu-item menu-item-type-post_type menu-item-object-page page_item"><a href="#my-menu" id="more-menu" style="">MORE</a></li></ul></div>')); ?>
                                 </nav>
                             </div>
                             <div class="large-3 columns no-space valign-middle">

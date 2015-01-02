@@ -187,11 +187,10 @@ a#more-menu{color: #65adcc !important;font-size: 1em !important;}
 .header-block{z-index: 9999;background: #FFF;max-height: 200px;}
 .main-menu-block{z-index: 1;}
 #my-menu{background: transparent;position: absolute;max-height: 50%;margin-top: 14.7em;box-shadow: none;}
-.menu-more-nav-header{background: #1f6aa6; max-width: 100rem;padding: 10px; width: 100%;}
+.menu-more-nav-header{background: #1f6aa6; max-width: 100rem;padding: 25px 10px 10px 10px; width: 100%;}
 .mm-list>li>a,.mm-list>li>span{padding: 10px; color: #FFF; font-size: 1.5em;line-height: 1.5em}
 .mm-menu > .mm-panel {padding: 0px;overflow-y: scroll;}
 html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
-
 
 /* The ghost, nudged to maintain perfect centering */
 .valign-middle:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-0.25em}
@@ -200,9 +199,15 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
 /* The element to be centered, can
    also be of any width and height */ 
 .centered{display:inline-block;vertical-align:middle}
+@media only screen and (max-width: 90em) {
+    #main-nav{border-right: 1px #b4b4b4 solid;}
+#main-nav ul li a{font-size: 0.9em;}
+.navigation-callout p{font-size:20px;}
+}
 
-@media only screen and (max-width: 64.063em){
+@media only screen and (max-width: 64em){
     .header-logo{width: 100%}
+    .header-block{background: none;}
     #top-logo{max-width: 250px; margin: 0 auto;}
     section.full-cta-box{padding: 50px 0px;}
     section.full-cta-box img{margin-left: auto;}
@@ -211,9 +216,13 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
     #facility-image-wide {background-attachment: scroll;}
 .home-block-2 a.button{margin-right:0px}
  .home-block-2-header{position: relative;}
+.main-menu-block .valign-middle:before{display:block;margin-right:0;}
  #my-menu{position: relative;margin-top: 0px; background: #1f6aa6;}
+ #main-nav ul li{margin: 0.5em; padding-right: 1em; }
+ .navigation-callout:before{display: none;}
+ #home-featured-image-container .wide-featured-image{margin-top: 0px;padding: 20% 0;}
 }
-@media only screen and (max-width: 40.063em){
+@media only screen and (max-width: 40em){
 h2{font-size:2.75em;color:#000;}
 .device-menu-cta{font-size: 1em;}
 .device-menu-cta a{color: #8d9920;}
@@ -229,17 +238,6 @@ img.cta-img-1 {margin-left: 0px;}
 .nsv-side-container *, .nsv-sidebar *{color: #FFF;}
 .nsv-side-container button{background: #000000}
 a.big-phone-number{font-size: 2em;}
-}
-/*//___Small Breakpoint___\\*/
-@media only screen and (min-width: 40.063em) {}
-/*//___Medium Breakpoint___\\*/
-@media only screen and (min-width: 64.063em) {}
-/*//___Large Breakpoint___\\*/
-@media only screen and (min-width: 90.063em) {}
-/*//___X-Large Breakpoint___\\*/
-@media only screen and (min-width: 120.063em) {}
-
-@media only screen and (max-width: 40em) {
 #home-featured-image-container .featured-image-text span{font-size: 2em; line-height: 1.81em;}
 .slick-prev:before,.slick-next:before{font-size:20px}
 .slick-prev,.slick-next{padding:17px;}
@@ -250,14 +248,21 @@ a.big-phone-number{font-size: 2em;}
 #social-media ul li:hover{background: #FFF;}
 #social-media ul li img{padding:5% 10%}
 }
+
+/*//___Small Breakpoint___\\*/
+@media only screen and (min-width: 40.063em) {}
+/*//___Medium Breakpoint___\\*/
+@media only screen and (min-width: 64.063em) {}
+/*//___Large Breakpoint___\\*/
+@media only screen and (min-width: 90.063em) {}
+/*//___X-Large Breakpoint___\\*/
+@media only screen and (min-width: 120.063em) {}
+
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 #home-featured-image-container .featured-image-text span{font-size: 3em;line-height: 1.61em;}
+#main-nav ul li a{font-size: 0.85em;}
 }
-@media only screen and (max-width: 90em) {
-    #main-nav{border-right: 1px #b4b4b4 solid;}
-#main-nav ul li a{font-size: 0.9em;}
-.navigation-callout p{font-size:20px;}
-}
+
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {}
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {}
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {}
@@ -269,6 +274,4 @@ a.big-phone-number{font-size: 2em;}
 @media only screen and (orientation: portrait) {}
 
 /*//___Custom Media Queries___\\*/
-@media only screen and (max-width: 64em) {
-    .navigation-callout:before{display: none;}
-}
+@media only screen and (max-width: 64em) {}
