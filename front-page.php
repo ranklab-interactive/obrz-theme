@@ -50,7 +50,7 @@ Template Name: Homepage template
                 <h2><small>We Offer</small></h2>
                 <h3>Extraordinary Treatment</h3>
             </div>
-            <div class="small-12 medium-3 columns right small-text-center large-text-right">
+            <div class="small-12 large-3 columns right small-text-center large-text-right">
                 <a class="button" href="#">Contact Us</a>
             </div>
         </div>

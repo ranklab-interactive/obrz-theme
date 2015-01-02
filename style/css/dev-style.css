@@ -54,6 +54,7 @@ div[class*="home-block-1-"]{padding: 25px;text-align: center;}
 
 /*//___Home Content Block 2___\\*/
 .home-block-2{background: url('../images/sand-bg.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;}
+.home-block-2 a.button{margin-right: 65px;}
 .home-block-2-header{position: absolute;}
 div[class*="home-slide-"] h2 small{}
 div[class*="home-slide-"] h2{}
@@ -196,6 +197,8 @@ a#more-menu{color: #65adcc !important;font-size: 1em !important;}
     .single-facility-featured-image-container{height: 300px;}
     #sidr-inner{top:85px;}
     #facility-image-wide {background-attachment: scroll;}
+.home-block-2 a.button{margin-right:0px}
+ .home-block-2-header{position: relative;}
 }
 @media only screen and (max-width: 40.063em){
 h2{font-size:2.75em;color:#000;}
@@ -224,7 +227,6 @@ a.big-phone-number{font-size: 2em;}
 @media only screen and (min-width: 120.063em) {}
 
 @media only screen and (max-width: 40em) {
-.home-block-2-header{position: relative;}
 #home-featured-image-container .featured-image-text span{font-size: 2em; line-height: 1.81em;}
 .slick-prev:before,.slick-next:before{font-size:20px}
 .slick-prev,.slick-next{padding:17px;}
