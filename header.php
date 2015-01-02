@@ -26,19 +26,11 @@
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/dev-style.css"/>
     </head>
     <body <?php body_class(); ?>>
-        <nav id="my-menu" role="navigation">
-                                <?php wp_nav_menu(array('menu' => 'Main Menu', 'menu_class' => 'main-nav-menu', 'depth' => 1, 'items_wrap' => '<div class="menu-nav-header"><ul>%3$s<li id="menu-item" class="nav-menu-more menu-item menu-item-type-post_type menu-item-object-page page_item"><a href="#" id="more-menu" style="">MORE</a></li></ul>')); ?>
-
-<div class="row clearfix">
-                     <?php include (TEMPLATEPATH . '/library/includes/home-slide.php'); ?> 
-    </div>
-            </div>
-        </nav>
         <!-- header -->
-        <div class="row">
+        <div class="wide-container clearfix">
             <header>
-                <div class="large-12 columns">
-                    <div class="pad">
+                <div class="large-12 columns clearfix header-block">
+                    <div class="row pad header-top-block">
                         <div class="medium-3 columns">
                             <!-- logo -->
                             <div class="logo">
@@ -51,8 +43,8 @@
                             <nav id="top-nav" class="hide-for-small right" role="navigation"><?php wp_nav_menu( array( 'theme_location' => 'main-nav', 'menu_class' => 'top-menu-right' , 'depth' => 1, 'menu' => 'Top Menu') ); ?></nav>
                         </div>
                     </div>
-                    <div>
-                        <div class="medium-12 columns">
+                    <div class="row">
+                        <div class="medium-12 columns main-menu-block">
                             <div class="large-9 columns no-space valign-middle">
                                 <nav id="main-nav" class="hide-for-small centered" role="navigation">
                                 <?php wp_nav_menu(array('menu' => 'Main Menu', 'menu_class' => 'main-nav-menu', 'depth' => 1, 'items_wrap' => '<div class="menu-nav-header"><ul class="small-text-center medium-text-left">%3$s<li id="menu-item" class="nav-menu-more menu-item menu-item-type-post_type menu-item-object-page page_item"><a href="#my-menu" id="more-menu" style="">MORE</a></li></ul></div>')); ?>
@@ -64,6 +56,10 @@
                                     <span class="navigation-callout-phone">888-123-4567</span>
                                 </div>
                             </div>
+                            <nav id="my-menu" class="row" role="navigation">
+                                <?php wp_nav_menu(array('menu' => 'Main Menu', 'menu_class' => 'main-more-nav-menu', 'depth' => 1, 'items_wrap' => '<div class="menu-more-nav-header medium-12 columns small-centered"><a href="#my-menu" id="more-menu-close">CLOSE</a><ul>%3$s</ul></div>')); ?>
+                                
+        </nav>
                         </div>
                     </div>
                 </div>

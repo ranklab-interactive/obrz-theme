@@ -180,7 +180,19 @@ box-shadow:         0 0 0 1px rgba(180, 180, 180, 0.4);margin:0 auto;background:
 .navigation-callout:before{content:'\25C4';color:#f27527;font-size:36px;left:-20px;position:absolute;top: 22%;border: 0px solid transparent; padding: 0px;}
 .navigation-callout p{font-family:Cabin;color:#ffffff;font-size:24px;font-weight:400;line-height:36px;margin-bottom: 0px}
 .navigation-callout-phone{font-size:36px;font-weight:700;line-height:36px;}
+
+/*//___More Menu Stylo___\\*/
 a#more-menu{color: #65adcc !important;font-size: 1em !important;}
+#more-menu-close{color: #FFF; font-size: 3em;}
+.header-block{z-index: 9999;background: #FFF;max-height: 200px;}
+.main-menu-block{z-index: 1;}
+#my-menu{background: transparent;position: absolute;max-height: 50%;margin-top: 14.7em;box-shadow: none;}
+.menu-more-nav-header{background: #1f6aa6; max-width: 100rem;padding: 10px; width: 100%;}
+.mm-list>li>a,.mm-list>li>span{padding: 10px; color: #FFF; font-size: 1.5em;line-height: 1.5em}
+.mm-menu > .mm-panel {padding: 0px;overflow-y: scroll;}
+html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
+
+
 /* The ghost, nudged to maintain perfect centering */
 .valign-middle:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-0.25em}
 .valign-middle{display: inline-block;}
@@ -199,6 +211,7 @@ a#more-menu{color: #65adcc !important;font-size: 1em !important;}
     #facility-image-wide {background-attachment: scroll;}
 .home-block-2 a.button{margin-right:0px}
  .home-block-2-header{position: relative;}
+ #my-menu{position: relative;margin-top: 0px; background: #1f6aa6;}
 }
 @media only screen and (max-width: 40.063em){
 h2{font-size:2.75em;color:#000;}
@@ -242,7 +255,7 @@ a.big-phone-number{font-size: 2em;}
 }
 @media only screen and (max-width: 90em) {
     #main-nav{border-right: 1px #b4b4b4 solid;}
-#main-nav ul li a{font-size: 0.85em;}
+#main-nav ul li a{font-size: 0.9em;}
 .navigation-callout p{font-size:20px;}
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {}

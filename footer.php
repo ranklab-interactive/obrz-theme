@@ -67,7 +67,7 @@
     </footer>
 </div><!-- end footer-container -->
 <?php wp_footer(); ?>
-<!--<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.sidr.min.js"></script>-->
+<!--<script type="text/javascript" src="<?php //echo get_template_directory_uri(); ?>/library/js/jquery.sidr.min.js"></script>-->
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/scripts.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/foundation.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/foundation.equalizer.js"></script>
@@ -80,46 +80,15 @@
         }       
     });
     $(document).ready(function(){
-                    $("#my-menu").mmenu({
-                 offCanvas: {
-                    position  : "bottom",
-                    zposition : "front"
-                 }
-                    });
-                    
-        $('.home-block-2-slider-scroll').slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            adaptiveHeight: true,
-            useCSS: false,
-            responsive: [
-                {
-                    breakpoint: 1440,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                },
-                {
-                    breakpoint: 640,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
+        $("#my-menu").mmenu({         
+            offCanvas: {
+                position  : "top",
+                zposition : "front"
+            }
         });
+         $("#more-menu-close").click(function() {
+         $("#my-menu").trigger("close.mm");
+      });
     });
 </script>
 </body>
