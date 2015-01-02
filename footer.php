@@ -39,26 +39,28 @@
             </div>
         </div>
         <div class="small-12 columns footer-block-3">
-            <div class="row">
-                <div id="copyright" class="small-12 medium-7 columns pad">Ocean Breeze &copy;<?php echo date("Y "); echo stripslashes(get_option('ranklab_copyright')); ?> - Address Here</div>
-                <div id="social-media" class="small-12 medium-4 columns">
-                    <div class="row">
-                        <div class="small-2 columns small-offset-2 pad">
+            <div id="copyright" class="small-12 medium-7 large-8 columns small-text-center medium-text-left valign-middle">
+                <span class="centered">Ocean Breeze &copy;<?php echo date("Y "); echo stripslashes(get_option('ranklab_copyright')); ?> - Address Here</span>
+            </div>
+            <div id="social-media" class="small-12 medium-5 large-4 columns">
+                <div class="row">
+                    <ul class="small-text-center small-block-grid-5">
+                        <li>
                             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-fb.png" /></a>
-                        </div>
-                        <div class="small-2 columns pad">
+                        </li>
+                        <li>
                             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-twitter.png" /></a>
-                        </div>
-                        <div class="small-2 columns pad">
+                        </li>
+                        <li>
                             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-gplus.png" /></a>
-                        </div>
-                        <div class="small-2 columns pad">
+                        </li>
+                        <li>
                             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-pin.png" /></a>
-                        </div>
-                        <div class="small-2 columns pad">
+                        </li>
+                        <li>
                             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-yt.png" /></a>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -78,17 +80,13 @@
         }       
     });
     $(document).ready(function(){
-        //            $("#more-main-nav").mmenu({
-        //         offCanvas: {
-        //            pageNodetype: "header",
-        //            position  : "top",
-        //            zposition : "front"
-        //         }
-        //            });
-        //            
-        //      $("#more-menu").click(function() {
-        //         $("#more-main-nav").trigger("open.mm");
-        //      });
+                    $("#my-menu").mmenu({
+                 offCanvas: {
+                    position  : "bottom",
+                    zposition : "front"
+                 }
+                    });
+                    
         $('.home-block-2-slider-scroll').slick({
             dots: true,
             infinite: true,
