@@ -7,95 +7,39 @@
 <div class="home-block-2-slider">
     <div class="small-12 columns small-centered pad">
         <div class="home-block-2-slider-scroll">
+             <?php
+query_posts( 'cat=24' );
+while ( have_posts() ) : the_post();?>
+            <?php $featuredimg = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'home_slide_featured_image');
+        $feature_url = $featuredimg['0'];
+        ?>
             <div class="home-block-2-slider-block text-left">
                 <div class="home-slide-content text-left">    
-                <img src="http://placehold.it/500x250"/>
-                    
-                        <h3 class="home-block-2-slider-block-title">Section Title 1</h3>
-                        <p>
-                            Normal Paragraph, Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non Lorem, Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                        </p>
-                        <div class="home-slide-read-more">
-                            <a href="#" class="home-slide-read-more-link">Read More</a>
-                        </div>
+                    <img src="<?php echo $feature_url ?>"/>
+                    <h3 class="home-block-2-slider-block-title"><?php the_title()?></h3>
+                    <p>
+                        <?php the_excerpt() ?>
+                    </p>
+                    <div class="home-slide-read-more">
+                        <a href="<?php the_permalink()?>" class="home-slide-read-more-link">Read More</a>
+                    </div>
                 </div>
             </div>
-            <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                <img src="http://placehold.it/500x250"/>
-                    
-                <h3 class="home-block-2-slider-block-title">Section Title 2</h3>
-                        <p>
-                            Normal Paragraph, Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non Lorem, Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                        </p>
-                        <div class="home-slide-read-more">
-                            <a href="#" class="home-slide-read-more-link">Read More</a>
-                        </div>
-                </div>
-            </div>
-            <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                <img src="http://placehold.it/500x250"/>
-                    
-                        <h3 class="home-block-2-slider-block-title">Section Title 3</h3>
-                        <p>
-                            Normal Paragraph, Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non Lorem, Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                        </p>
-                        <div class="home-slide-read-more">
-                            <a href="#" class="home-slide-read-more-link">Read More</a>
-                        </div>
-                </div>
-            </div>
-            <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                <img src="http://placehold.it/500x250"/>
-                    
-                        <h3 class="home-block-2-slider-block-title">Section Title 4</h3>
-                        <p>
-                            Normal Paragraph, Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non Lorem, Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                        </p>
-                        <div class="home-slide-read-more">
-                            <a href="#" class="home-slide-read-more-link">Read More</a>
-                        </div>
-                </div>
-            </div>
-            <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                <img src="http://placehold.it/500x250"/>
-                    
-                        <h3 class="home-block-2-slider-block-title">Section Title 5</h3>
-                        <p>
-                            Normal Paragraph, Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non Lorem, Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                        </p>
-                        <div class="home-slide-read-more">
-                            <a href="#" class="home-slide-read-more-link">Read More</a>
-                        </div>
-                </div>
-            </div>
-            <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                <img src="http://placehold.it/500x250"/>
-                    
-                        <h3 class="home-block-2-slider-block-title">Section Title 6</h3>
-                        <p >
-                            Normal Paragraph, Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non Lorem, Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula
-                        </p>
-                        <div class="home-slide-read-more">
-                            <a href="#" class="home-slide-read-more-link">Read More</a>
-                        </div>
-                </div>
-            </div>
+            <?php endwhile;
+wp_reset_query();
+?> 
+
+                
         </div>
     </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){
-$('.home-block-2-slider-scroll').slick({
+    $(document).ready(function(){
+        $('.home-block-2-slider-scroll').slick({
             dots: true,
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            adaptiveHeight: true,
             useCSS: false,
             responsive: [
                 {

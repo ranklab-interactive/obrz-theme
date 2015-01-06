@@ -12,7 +12,6 @@
  */
      
 /********************* META BOX DEFINITIONS ***********************/
-    
 //(----------------Gallery for Facilities----------------)
 
 add_filter( 'rwmb_meta_boxes', 'ranklab_register_meta_boxes' );
@@ -26,6 +25,7 @@ $meta_boxes[] = array(
 'pages' => array( 'page'),
 'context' => 'normal',
 'priority' => 'high',
+ 'clone' => 'true',
 'fields' => array(
 array(
 'name' => 'Facility Gallery',
