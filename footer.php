@@ -1,6 +1,6 @@
 <div class="wide-container">
     <footer class="large-12 columns no-space">
-        <div class="small-12 columns footer-block-1 pad">
+        <div class="small-12 columns footer-block-1 pad text-center">
             <div class="row pad valign-middle">
                 <div class="medium-4 columns footer-block-1-1 text-center centered">
                     <h4>TRUSTED CARE</h4>
@@ -81,9 +81,9 @@
     });
     $(document).ready(function(){
         $("#my-responsive-menu").mmenu();
-         $("#responsive-menu-button").click(function() {
-         $("#my-responsive-menu").trigger("open.mm");
-         $("#my-responsive-menu").trigger("close.mm");
+        $("#responsive-menu-button").click(function() {
+            $("#my-responsive-menu").trigger("open.mm");
+            $("#my-responsive-menu").trigger("close.mm");
         });
         $("#my-menu").mmenu({         
             offCanvas: {
@@ -91,18 +91,17 @@
                 zposition : "front"
             }
         });
-         $("#more-menu-close").click(function() {
-         $("#my-menu").trigger("close.mm");
+        $("#more-menu-close").click(function() {
+            $("#my-menu").trigger("close.mm");
         });
-    $( ".crossRotate" ).click(function() {
-    //alert($( this ).css( "transform" ));
-    if (  $( this ).css( "transform" ) == 'none' ){
-        $(this).css("transform","rotate(180deg)");
-    } else {
-        $(this).css("transform","" );
-    }
-});
-    
+        $( ".crossRotate" ).click(function() {
+            //alert($( this ).css( "transform" ));
+            if (  $( this ).css( "transform" ) == 'none' ){
+                $(this).css("transform","rotate(180deg)");
+            } else {
+                $(this).css("transform","" );
+            }
+        });
     });
 </script>
 </body>

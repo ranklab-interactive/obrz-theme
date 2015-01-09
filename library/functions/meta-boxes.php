@@ -22,16 +22,34 @@ $prefix = 'ranklab_';
 $meta_boxes[] = array(
 'id' => 'facility-gallery',
 'title' => 'Facility Gallery',
-'pages' => array( 'page'),
+'pages' => array( 'facilities'),
 'context' => 'normal',
 'priority' => 'high',
  'clone' => 'true',
 'fields' => array(
 array(
 'name' => 'Facility Gallery',
-'id' => $prefix . 'nsv-facility-gallery',
+'id' => $prefix . 'facility-gallery',
 'type' => 'image_advanced',
 //'clone' => true,
+),
+)
+);
+$prefix = 'ranklab_';
+// Page Blocks
+$meta_boxes[] = array(
+'id' => 'page_block',
+'title' => 'Page Block',
+'pages' => array( 'facilities', 'page'),
+'context' => 'normal',
+'priority' => 'high',
+ 'clone' => 'true',
+'fields' => array(
+array(
+'name' => 'Facility Gallery',
+'id' => $prefix . 'page_block',
+'type' => 'wysiwyg',
+'clone' => true,
 ),
 )
 );

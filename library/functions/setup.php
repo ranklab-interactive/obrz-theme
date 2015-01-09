@@ -69,11 +69,11 @@ function disableAutoSave(){
 add_action( 'wp_print_scripts', 'disableAutoSave' );
 
 // Remove Admin bar
-function remove_admin_bar()
-{
-    return false;
-}
-add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
+//function remove_admin_bar()
+//{
+//    return false;
+//}
+//add_filter('show_admin_bar', 'remove_admin_bar'); 
 
 // Clean up the <head>
 function removeHeadLinks() {

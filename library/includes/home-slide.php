@@ -8,7 +8,7 @@
     <div class="small-12 columns small-centered pad">
         <div class="home-block-2-slider-scroll">
              <?php
-query_posts( 'cat=24' );
+query_posts( 'cat=334' );
 while ( have_posts() ) : the_post();?>
             <?php $featuredimg = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'home_slide_featured_image');
         $feature_url = $featuredimg['0'];
@@ -17,19 +17,15 @@ while ( have_posts() ) : the_post();?>
                 <div class="home-slide-content text-left">    
                     <img src="<?php echo $feature_url ?>"/>
                     <h3 class="home-block-2-slider-block-title"><?php the_title()?></h3>
-                    <p>
                         <?php the_excerpt() ?>
-                    </p>
                     <div class="home-slide-read-more">
                         <a href="<?php the_permalink()?>" class="home-slide-read-more-link">Read More</a>
                     </div>
                 </div>
             </div>
             <?php endwhile;
-wp_reset_query();
-?> 
-
-                
+            wp_reset_query();
+            ?>            
         </div>
     </div>
 </div>
@@ -52,14 +48,14 @@ wp_reset_query();
                     }
                 },
                 {
-                    breakpoint: 1024,
+                    breakpoint: 1280,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2
                     }
                 },
                 {
-                    breakpoint: 640,
+                    breakpoint: 800,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1

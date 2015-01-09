@@ -34,6 +34,11 @@ button:focus, .button:focus {background-color: dimgray;}
 .breadcrumbs > *{color: gray;font-size: 1em;line-height: 1em;}
 .breadcrumbs > * a{color: gray; text-decoration: underline; }
 
+/*On Page Block Styling 1 visible in Facility pages*/
+li.page-block-1{}
+.page-block-content{border: 1px solid #b4b4b4;}
+.page-block-content h5{background: #fafafa;border-bottom: 1px solid #b4b4b4;padding: .5em;margin: 0px;text-transform: uppercase;}
+.page-block-content ul, .page-block-text{padding: 2em 3em; margin-bottom: 0;}
 /* (========= Section Styling  =============) */
 /*//___Front Page Styling___\\*/
 div[class*="home-block-1-"] h2 small, div[class*="home-block-2-"] h2 small, .home-block-3 h2 small{font-family: 'Oswald';text-transform: uppercase; font-size: 0.55em; font-weight: 300;color: #FFF;letter-spacing: 1px;}
@@ -58,15 +63,15 @@ div[class*="home-block-1-"]{padding: 25px;text-align: center;}
 .home-block-2-header{position: absolute;}
 div[class*="home-slide-"] h2 small{}
 div[class*="home-slide-"] h2{}
-div[class*="home-slide-"] h3{line-height: 1.25em;color: #000; font-size: 1.25em;}
+div[class*="home-slide-"] h3{line-height: 1.25em;color: #000; font-size: 1.25em;height: 3.5em;}
 .home-bock-slider{}
-.home-block-2-slider-block p{text-align:center;margin:0 auto;max-width:1024px}
-.home-block-2-slider-block{padding:0 15px;text-align:center;height: 600px;}
-.home-slide-content{border-width:1px;border-color:#b4b4b4;border-style:solid; background: #FFF;height: 100%}
+.home-block-2-slider-block p{text-align:center;margin:0 auto;max-width:1024px;max-height: 10em;height: 100%;}
+.home-block-2-slider-block{padding:0 15px;text-align:center;height: 42em;}
+.home-slide-content{border-width:1px;border-color:#b4b4b4;border-style:solid; background: #FFF;height: 100%; position: relative;}
 .home-slide-content p, h3.home-block-2-slider-block-title{padding: 0 15px;text-align: left !important;color: #000000 !important;}
 h3.home-block-2-slider-block-title{font-size: 1.25em;}
-.home-slide-content img{border-bottom: 1px #b4b4b4 solid;margin-bottom: 60px;}
-.home-slide-read-more{border-top: 1px solid #b4b4b4;padding: 15px;font-size: 1.125em;margin-top: 60px; max-height: 30px;}
+.home-slide-content img{border-bottom: 1px #b4b4b4 solid;margin-bottom: 20px;}
+.home-slide-read-more{border-top: 1px solid #b4b4b4;padding: 15px;font-size: 1.125em;bottom: 0px;width: 100%;position: absolute;}
 a.home-slide-read-more-link{color: #2693c2; text-transform: uppercase;}
 a.home-slide-read-more-link:hover{color: #f27527;}
 a.home-slide-read-more-link:before{color: #f27527; content: '>';margin-right: 15px;}
@@ -110,13 +115,38 @@ footer{background: #1f6aa6;}
 #copyright{color:#FFF;font-size:1.125em;font-weight:normal;letter-spacing:1px; padding: 15px 0px;}
 /*//___Social Media___\\*/
 #social-media ul li{padding: 0px;border-left: 1px #FFF solid;}
-#social-media ul li img{height:100%;padding:15% 5%}
+#social-media ul li img{height:100%;max-height: 50px; padding:15% 5%}
+/*//___Social Media Share for Pages and Posts___\\*/
+.heading-share-block{background: #1f6aa6;}
+.heading-share-block #social-media ul li img{height:2em; padding: 0;}
+.heading-share-block #social-media ul li:first-child{border-left: none;}
+.heading-share-block #social-media ul li {color: #FFF;}
+
+/*//___Testimonials___\\*/
+.testimonial-block{background: #0D3242;}
+.testimonials-content{padding: 5em}
+.testimonials-content > .testimonial-quote > p{position: relative;color: #FFF;font-size: 2em;line-height: 1.25em;letter-spacing: 0.02em;z-index: 1;}
+.testimonials-content > .testimonial-quote > p:before{color: #65adcc;content:'\201c';font-family:"Oswald";font-size:8em;font-style:normal;left:-0.1em;position:absolute;top:.2em;z-index:-1}
+.testimonials-content h3.testimonial-author{color: #FFF; font-family: 'Oswald'; font-size: 1em;text-transform: uppercase;}
+.testimonials-content h3.testimonial-author:before{content: '- '}
 
 /* (========= Custom Template Styling  =============) */
 /*//___Use class below for full-width images as div background___\\*/
 .wide-featured-image{background-position: center center;background-repeat: no-repeat;background-size: cover;}
 .wide-featured-image.img-fixed{background-attachment: fixed;}
 .wide-featured-image.valign-middle{padding: 15% 0px;}
+
+/*Facility Post*/
+.facility-information-heading{background: #2693c2;}
+.facility-introduction{background: #fafafa;}
+#facility-description ul li{list-style: none;}
+#facility-description ul li a{color: #65adcc;}
+#facility-description ul li a:after{content:'\27a3';color: #f27527;float: right;}
+ul.facility-gallery{margin: 0;}
+ul.facility-gallery li{padding: 0;}
+.facility-gallery-slider-block > .slick-list{width:100%; margin: 0 auto;}
+.facility-gallery-image-block{background-position:center center;background-size:cover;display:flex;height:100%;width:100%}
+
 /* (========= Sidebar  =============) */
 .nsv-sidebar ul.menu li a{background: #FFF; color: #000000;display: block;text-transform: uppercase;border: 1px solid #000000; padding: 20px;}
 .nsv-sidebar ul.menu li.current_page_item a:hover, .nsv-sidebar ul.menu li a:hover{background: #000000; border: 1px solid #FFFFFF; color: #FFF;}
@@ -133,7 +163,7 @@ footer{background: #1f6aa6;}
 
 /*//___Slick Slider Settings___\\*/
 /*//___Home Block 2 Slider___\\*/
-.slick-list{width:91.6667%; margin: 0 auto;}
+.slick-list{width:91.666667%; margin: 0 auto;}
 .slick-dots{margin:0}
 .slick-prev{left:0}
 .slick-next{right:0}
@@ -142,14 +172,8 @@ footer{background: #1f6aa6;}
 .slick-next{border-radius:25px}
 .slick-prev:hover,.slick-next:hover{background:#FFF;color:#000}
 .slick-prev:before,.slick-next:before{font-family:'Cabin';font-size:35px;line-height:0;color:inherit;margin:0 6px;position:absolute}
-.slick-prev:before {
-    content: '\FF1C';
-    left: 0;
-}
-.slick-next:before {
-    content: '\FF1E';
-    right: 0;
-}
+.slick-prev:before{content:'\FF1C';left:0}
+.slick-next:before{content:'\FF1E';right:0}
 .slick-next:focus,.slick-prev:focus{background-color:dimgray;color:#FFF}
 .slick-dots li button:before{font-family:"Cabin";font-size:46px; color: #FFF;}
 .slick-dots li.slick-active button:before{color:#FFF;opacity:.75}
@@ -254,18 +278,23 @@ a.big-phone-number{font-size: 2em;}
 
 /*//___All Responsive Menu Styling Goes Here___\\*/
 html.mm-opened .mm-page {margin-right: 15px;z-index: 9999999;}
-.mm-menu {max-width: 100%;}.responsive-menu{-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-o-transition-duration:0.5s;transition-duration:0.5s;-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;-o-transition-property:-o-transform;transition-property:transform;transition-timing-function: linear;-moz-transition-timing-function: linear; -webkit-transition-timing-function: linear;}
+.mm-menu {max-width: 460px;}
+.responsive-menu{margin-top: -30px;-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-o-transition-duration:0.5s;transition-duration:0.5s;-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;-o-transition-property:-o-transform;transition-property:transform;transition-timing-function: linear;-moz-transition-timing-function: linear; -webkit-transition-timing-function: linear;}
 #responsive-menu-button:after{content:'\2192';font-size: 2.5em;transition: all 0.5s linear}
 a#responsive-menu-button{outline:0;color: #2693c2;text-shadow: 1px 1px 1px solid #000;transition: all 0.5s linear;}
+.mm-menu .mm-list > li > a.mm-subclose{color: #FFF;}
 .mm-list a.mm-subopen:before{background: #f27527;width:100%;}
-.mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before{color: rgba(255,255,255,1.0) !important;}
+.mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before{border-color: rgba(255,255,255,1.0) !important;}
+.mm-list a.mm-subclose:before{left: 12px;}
 #my-menu{display: none;}
 }
 
 /*//___Small Breakpoint___\\*/
 @media only screen and (min-width: 40.063em) {}
 /*//___Medium Breakpoint___\\*/
-@media only screen and (min-width: 64.063em) {}
+@media only screen and (min-width: 64.063em) {
+    #my-responsive-menu{display: none;}
+}
 /*//___Large Breakpoint___\\*/
 @media only screen and (min-width: 90.063em) {}
 /*//___X-Large Breakpoint___\\*/
