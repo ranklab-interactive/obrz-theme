@@ -35,11 +35,18 @@ button:focus, .button:focus {background-color: dimgray;}
 .breadcrumbs > * a{color: gray; text-decoration: underline; }
 
 /*On Page Block Styling 1 visible in Facility pages*/
-li.page-block-1{}
+li.page-block-1{list-style: none;}
 .page-block-content{border: 1px solid #b4b4b4;}
 .page-block-content h5{background: #fafafa;border-bottom: 1px solid #b4b4b4;padding: .5em;margin: 0px;text-transform: uppercase;}
 .page-block-content ul, .page-block-text{padding: 2em 3em; margin-bottom: 0;}
+
+/*//___On Page Block Styling 2___\\*/
+.page-block-2{}
+.page-block-2-title{}
+.page-block-2-content{}
+
 /* (========= Section Styling  =============) */
+.page-heading{padding: 6em 0 3em}
 /*//___Front Page Styling___\\*/
 div[class*="home-block-1-"] h2 small, div[class*="home-block-2-"] h2 small, .home-block-3 h2 small{font-family: 'Oswald';text-transform: uppercase; font-size: 0.55em; font-weight: 300;color: #FFF;letter-spacing: 1px;}
 div[class*="home-block-1-"] h2, div[class*="home-block-2-"] h2, .home-block-3 h2{line-height: 1em;margin: 0px;letter-spacing: 1px;}
@@ -67,10 +74,10 @@ div[class*="home-slide-"] h3{line-height: 1.25em;color: #000; font-size: 1.25em;
 .home-bock-slider{}
 .home-block-2-slider-block p{text-align:center;margin:0 auto;max-width:1024px;max-height: 10em;height: 100%;}
 .home-block-2-slider-block{padding:0 15px;text-align:center;height: 42em;}
+.home-slide-featured-image{background-image: url('../images/header-logo.png');background-size:cover;min-height:20em;border-bottom: 1px #b4b4b4 solid;margin-bottom: 20px;background-repeat: no-repeat;}
 .home-slide-content{border-width:1px;border-color:#b4b4b4;border-style:solid; background: #FFF;height: 100%; position: relative;}
 .home-slide-content p, h3.home-block-2-slider-block-title{padding: 0 15px;text-align: left !important;color: #000000 !important;}
 h3.home-block-2-slider-block-title{font-size: 1.25em;}
-.home-slide-content img{border-bottom: 1px #b4b4b4 solid;margin-bottom: 20px;}
 .home-slide-read-more{border-top: 1px solid #b4b4b4;padding: 15px;font-size: 1.125em;bottom: 0px;width: 100%;position: absolute;}
 a.home-slide-read-more-link{color: #2693c2; text-transform: uppercase;}
 a.home-slide-read-more-link:hover{color: #f27527;}
@@ -120,7 +127,8 @@ footer{background: #1f6aa6;}
 .heading-share-block{background: #1f6aa6;}
 .heading-share-block #social-media ul li img{height:2em; padding: 0;}
 .heading-share-block #social-media ul li:first-child{border-left: none;}
-.heading-share-block #social-media ul li {color: #FFF;}
+.heading-share-block #social-media-sharing span{margin-top:.4em;position:absolute;right:13em; color: #FFF;font-family: 'Oswald';}
+
 
 /*//___Testimonials___\\*/
 .testimonial-block{background: #0D3242;}
@@ -138,12 +146,15 @@ footer{background: #1f6aa6;}
 
 /*Facility Post*/
 .facility-information-heading{background: #2693c2;}
+.facility-information-heading p, .facility-information-heading h1{color: #FFF;display: inline-block}
+.facility-information-heading p{font-size: 2.25em;margin-left: 1.5em;}
 .facility-introduction{background: #fafafa;}
-#facility-description ul li{list-style: none;}
-#facility-description ul li a{color: #65adcc;}
-#facility-description ul li a:after{content:'\27a3';color: #f27527;float: right;}
-ul.facility-gallery{margin: 0;}
-ul.facility-gallery li{padding: 0;}
+.facility-introduction-content{padding-bottom: 8em;}
+#facility-description ul li{list-style: none;padding: 0.75em 0 0; border-bottom: 1px solid #b4b4b4}
+#facility-description ul li a{color: #65adcc;text-transform: uppercase;letter-spacing: 1px}
+#facility-description ul li a:after{content:'\27a3';color:#f27527;float:right;font-size:2em;margin-top:-0.5em}
+.facility-gallery{display:flex;flex-flow:row wrap;min-height:100%}
+.facility-gallery > div{}
 .facility-gallery-slider-block > .slick-list{width:100%; margin: 0 auto;}
 .facility-gallery-image-block{background-position:center center;background-size:cover;display:flex;height:100%;width:100%}
 
@@ -154,7 +165,7 @@ ul.facility-gallery li{padding: 0;}
 .nsv-sidebar ul.menu{margin-left: 0px;}
 .nsv-sidebar ul.menu li.current_page_item a{background: #8d9920;color:#FFF;}
 
-/* (========= Grid Functionality Custo =============) */
+/* (========= Grid Functionality Custom =============) */
 .row{max-width: 101.7rem;}
 .no-space{margin: inherit;padding: 0px;}
 .margintop-55{margin-top: -55px;}
@@ -182,10 +193,10 @@ ul.facility-gallery li{padding: 0;}
 [data-featured*='1']{background: #000;}
 
 /*//___Nav___\\*/
-/*//___Sidr Custos___\\*/
+/*//___Sidr Custom Styling___\\*/
 div[id*="sidr"] li.sidr-class-nav-menu-more{display: none !important;}
 
-/*//___Header Stylings___\\*/
+/*//___Header Styling___\\*/
 #top-nav{}
 ul.top-menu-right li a{color: #b4b4b4;}
 ul.top-menu-right li a:hover{color: #f27527;}
@@ -205,7 +216,7 @@ box-shadow:         0 0 0 1px rgba(180, 180, 180, 0.4);margin:0 auto;background:
 .navigation-callout p{font-family:Cabin;color:#ffffff;font-size:24px;font-weight:400;line-height:36px;margin-bottom: 0px}
 .navigation-callout-phone{font-size:36px;font-weight:700;line-height:36px;}
 
-/*//___More Menu Stylo___\\*/
+/*//___More Menu Style___\\*/
 a#more-menu{color: #65adcc !important;font-size: 1em !important;}
 #more-menu-close{color: #FFF; font-size: 3em;}
 .header-block{z-index: 9999;background: #FFF;max-height: 200px;}
@@ -224,6 +235,8 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
    also be of any width and height */ 
 .centered{display:inline-block;vertical-align:middle}
 
+/*Featherlight Gallery Style*/
+.featherlight{z-index: 9999999;}
 
 /*Viewpoint for Only in Large and Down*/
 @media only screen and (max-width: 90em) {
@@ -233,6 +246,7 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
 }
 /*Viewpoint for Only in Medium and Down*/
 @media only screen and (max-width: 64em){
+    #heading{margin-top: 5em;}
     .header-logo{width: 100%}
     #top-logo{max-width: 250px; margin: 0 auto;}
     section.full-cta-box{padding: 50px 0px;}
@@ -240,6 +254,9 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
     .single-facility-featured-image-container{height: 300px;}
     #sidr-inner{top:85px;}
     #facility-image-wide {background-attachment: scroll;}
+    .facility-information-heading p{margin-left: 0;}
+    .heading-share-block #social-media ul{float: none !important;}
+    .page-heading{padding: 3em 0;}
 .home-block-2 a.button{margin-right:0px}
  .home-block-2-header{position: relative;}
 .main-menu-block .valign-middle:before{display:block;margin-right:0;}
@@ -247,6 +264,9 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
  #main-nav ul li{margin: 0.5em; padding-right: 1em; }
  .navigation-callout:before{display: none;}
  #home-featured-image-container .wide-featured-image{margin-top: 0px;padding: 20% 0;background-position: center top;}
+ .facility-gallery-slider-block ul.slick-dots{background: #f27527; bottom: 0px !important;}
+ .facility-gallery-slider-scroll .slick-slider{margin-bottom: 0px;}
+ #social-media ul{border-top: 1px solid #FFF; border-bottom: 1px solid #FFF;}
 }
 
 /*Viewpoint for Only in Small*/
@@ -267,9 +287,11 @@ img.cta-img-1 {margin-left: 0px;}
 .nsv-side-container button{background: #000000}
 a.big-phone-number{font-size: 2em;}
 #home-featured-image-container .featured-image-text span{font-size: 2em; line-height: 1.81em;}
-.slick-prev:before,.slick-next:before{font-size:20px}
-.slick-prev,.slick-next{padding:14px;top: 0; height: 100%;border-radius: 0; background: #b4b4b4;margin: 0px 3px;}
-#social-media ul{border: 1px #FFF solid;margin-bottom: 30px;}
+.home-block-2-slider-block{padding: 0px;}
+.slick-list{width: 100%;}
+.slick-prev:before,.slick-next:before{font-size:20px; margin:0 1.25rem;}
+.slick-prev,.slick-next{border-radius:0;background:#b4b4b4;margin:0;padding:2rem;top:10rem}
+#social-media ul{border: 1px #FFF solid;margin: 1.5em 0;}
 #social-media ul li{background: transparent; transition: background 0.5s ease;}
 #social-media ul li:first-child{border-left: 0px #FFF solid;}
 #social-media ul li:last-child{border-right: 0px #FFF solid;}
@@ -318,3 +340,8 @@ a#responsive-menu-button{outline:0;color: #2693c2;text-shadow: 1px 1px 1px solid
 
 /*//___Custom Media Queries___\\*/
 @media only screen and (max-width: 64em) {}
+
+
+/*//___Formatting Page Styling___\\*/
+.page-template-template-formatting .slick-next,.page-template-template-formatting .slick-prev{background: #000;}
+.page-template-template-formatting .slick-next:hover,.page-template-template-formatting .slick-prev:hover{background: #FFF;}

@@ -15,7 +15,12 @@ while ( have_posts() ) : the_post();?>
         ?>
             <div class="home-block-2-slider-block text-left">
                 <div class="home-slide-content text-left">    
-                    <img src="<?php echo $feature_url ?>"/>
+                    <?php if (isset($feature_url)) { ?>
+                    <div class="home-slide-featured-image" style="background-image: url('<?php echo $feature_url ?>');">
+                             <?php } else { ?>
+                    <div class="home-slide-featured-image" style='background-position: center center; background-size: unset;'>
+                         <?php } ?>
+                </div>
                     <h3 class="home-block-2-slider-block-title"><?php the_title()?></h3>
                         <?php the_excerpt() ?>
                     <div class="home-slide-read-more">

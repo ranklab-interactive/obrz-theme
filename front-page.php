@@ -23,7 +23,7 @@ Template Name: Homepage template
             <div  data-equalizer-watch class="home-block-1-content">
                 <h2><small>SEE HOW WE CAN HELP</small></h2>
             </div>
-            <a class="button home-block-button">--></a>
+            <a class="button home-block-button">→</a>
         </div>
     </div>
     <div class="medium-5 columns home-block-1-1">

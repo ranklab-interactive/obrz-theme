@@ -1,8 +1,8 @@
-<div id="social-media" class="small-12 medium-4 large-3 columns right">
-    <ul class="small-text-center small-block-grid-6">
-        <li>
+<div id="social-media" class="small-12 large-4 columns right">
+    <span class="hide-for-medium-down">
             SHARE
-        </li>
+        </span>
+    <ul class="small-text-center small-block-grid-5 right">
         <li>
             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-fb.png" /></a>
         </li>
