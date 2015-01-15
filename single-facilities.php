@@ -45,7 +45,7 @@ get_header();
         <section id="facility-benefits" class="small-12 columns pad">
             <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3" data-equalizer>
                 <li class="page-block-1">
-                    <div class="page-block-content" data-equalizer-watch>
+                    <div class="page-block-1-content" data-equalizer-watch>
                         <h5 class="text-center">Amenities</h5>
                         <?php
                 $terms = wp_get_post_terms($post->ID, 'facility-type', array(
@@ -63,7 +63,7 @@ get_header();
                     </div>
                 </li>
                 <li class="page-block-1">
-                    <div class="page-block-content" data-equalizer-watch>
+                    <div class="page-block-1-content" data-equalizer-watch>
                         <h5 class="text-center">Transportation</h5>
                         <div class="page-block-text">
                             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
@@ -72,7 +72,7 @@ get_header();
                     </div>
                 </li>
                 <li class="page-block-1">
-                    <div class="page-block-content" data-equalizer-watch>
+                    <div class="page-block-1-content" data-equalizer-watch>
                         <h5 class="text-center">Residential Treatment</h5>
                         <div class="page-block-text">
                             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>

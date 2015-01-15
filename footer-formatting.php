@@ -1,23 +1,5 @@
 <div class="wide-container">
     <footer class="large-12 columns no-space">
-        <div class="small-12 columns footer-block-1 pad text-center">
-            <div class="row pad valign-middle">
-                <div class="medium-4 columns footer-block-1-1 text-center centered">
-                    <h4>TRUSTED CARE</h4>
-                    <div class="row">
-                        <div class="small-12 columns text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-trusted.jpg" />
-                        </div>
-                    </div>
-                </div>
-                <div class="medium-4 columns footer-block-1-2 text-center centered">
-                    <h2 class="pad"><strong>Questions?</strong> Give us a Call</h2>
-                </div>
-                <div class="medium-4 columns footer-block-1-3 text-center centered pad">
-                    <button>888-123-4567</button>
-                </div>
-            </div>
-        </div>
         <div class="row clearfix">
             <!-- logo -->
             <div class="small-12 columns text-center">

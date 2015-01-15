@@ -24,14 +24,14 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="side-nav">
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
   <li><a href="#">Link 3</a></li>
   <li><a href="#">Link 4</a></li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -49,14 +49,14 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <h1>h1. This is a very large header.</h1>
 <h2>h2. This is a large header.</h2>
 <h3>h3. This is a medium header.</h3>
 <h4>h4. This is a moderate header.</h4>
 <h5>h5. This is a small header.</h5>
 <h6>h6. This is a tiny header.</h6>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
                 
@@ -73,14 +73,14 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <h1 class="subheader">h1.subheader</h1>
 <h2 class="subheader">h2.subheader</h2>
 <h3 class="subheader">h3.subheader</h3>
 <h4 class="subheader">h4.subheader</h4>
 <h5 class="subheader">h5.subheader</h5>
 <h6 class="subheader">h6.subheader</h6>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
                 
@@ -97,14 +97,14 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <h1>h1. <small>Small segment header.</small></h1>
 <h2>h2. <small>Small segment header.</small></h2>
 <h3>h3. <small>Small segment header.</small></h3>
 <h4>h4. <small>Small segment header.</small></h4>
 <h5>h5. <small>Small segment header.</small></h5>
 <h6>h6. <small>Small segment header.</small></h6>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -119,12 +119,12 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <p class="text-left"><!-- text goes here --></p>
 <p class="text-right"><!-- text goes here --></p>
 <p class="text-center"><!-- text goes here --></p>
 <p class="text-justify"><!-- text goes here --></p>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -149,7 +149,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="disc">
 <li>List item with a much longer description or more content.</li>
 <li>List item</li>
@@ -164,7 +164,7 @@ Template Name: Formatting
 <li>List item</li>
 <li>List item</li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <div class="row">
@@ -187,7 +187,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="circle">
 <li>List item with a much longer description or more content.</li>
 <li>List item</li>
@@ -202,7 +202,7 @@ Template Name: Formatting
 <li>List item</li>
 <li>List item</li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <div class="row">
@@ -225,7 +225,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="square">
 <li>List item with a much longer description or more content.</li>
 <li>List item</li>
@@ -240,7 +240,7 @@ Template Name: Formatting
 <li>List item</li>
 <li>List item</li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <div class="row">
@@ -263,7 +263,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="no-bullet">
 <li>List item with a much longer description or more content.</li>
 <li>List item</li>
@@ -278,7 +278,7 @@ Template Name: Formatting
 <li>List item</li>
 <li>List item</li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <div class="row">
@@ -301,7 +301,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ol>
 <li>List item with a much longer description or more content.</li>
 <li>List item</li>
@@ -316,7 +316,7 @@ Template Name: Formatting
 <li>List item</li>
 <li>List item</li>
 </ol>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -327,9 +327,9 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <blockquote>Those people who think they know everything are a great annoyance to those of us who do.<cite>Isaac Asimov</cite></blockquote>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -342,9 +342,9 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" class="button">Button</a>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
                 
@@ -358,12 +358,12 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" class="button tiny">Tiny Button</a>
 <a href="#" class="button small">Small Button</a>
 <a href="#" class="button large">Large Button</a>
 <a href="#" class="button expand">Expand Button</a>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
                 
@@ -376,11 +376,11 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" class="button tiny radius">Tiny Radius</a>
 <a href="#" class="button small radius">Small Radius</a>
 <a href="#" class="button large radius">Large Radius</a>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
                 
@@ -393,11 +393,11 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" class="button tiny round">Tiny Round</a>
 <a href="#" class="button small round">Small Round</a>
 <a href="#" class="button large round">Large Round</a>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>	
                 
@@ -409,10 +409,10 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" class="button left">Left Float</a>
 <a href="#" class="button right">Right Float</a>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
                 
@@ -425,11 +425,11 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="text-center">
 	<a href="#" class="button">Centered</a>
 </div>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
                 
@@ -456,7 +456,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="button-group">
   <li><a href="#" class="button">Button 1</a></li>
   <li><a href="#" class="button">Button 2</a></li>
@@ -472,7 +472,7 @@ Template Name: Formatting
   <li><a href="#" class="button">Button 2</a></li>
   <li><a href="#" class="button">Button 3</a></li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -497,7 +497,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <p>
   <strong class="show-for-small-only">This text is shown only on a small screen.</strong>
   <strong class="show-for-medium-up">This text is shown on medium screens and up.</strong>
@@ -505,7 +505,7 @@ Template Name: Formatting
   <strong class="show-for-large-up">This text is shown on large screens and up.</strong>
   <strong class="show-for-large-only">This text is shown only on a large screen.</strong>
 </p>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <br>
@@ -526,14 +526,14 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <p>
   <strong class="hide-for-small-only">You are <em>not</em> on a small screen.</strong>
   <strong class="hide-for-medium-up">You are <em>not</em> on a medium, large, xlarge, or xxlarge screen.</strong>
   <strong class="hide-for-medium-only">You are <em>not</em> on a medium screen.</strong>
   <strong class="hide-for-large-up">You are <em>not</em> on a large, xlarge, or xxlarge screen.</strong>
   <strong class="hide-for-large-only">You are <em>not</em> on a large screen.</strong>
-</p>		</textarea></code>
+</p>		 ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -551,13 +551,13 @@ Template Name: Formatting
                 </div>
                 <div class="large-12 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="row">  
   <div class="large-3 columns">3 Columns</div>
   <div class="large-6 columns">6 Columns</div>
   <div class="large-3 columns">3 Columns</div>
 </div>			
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
                 
@@ -574,13 +574,13 @@ Template Name: Formatting
                 </div>
                 <div class="large-12 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="row">
   <div class="small-2 large-4 columns">Large 4, Small 2</div>
   <div class="small-4 large-4 columns">Large 4, Small 4</div>
   <div class="small-6 large-4 columns">Large 4, Small 6</div>
 </div>		
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>		
                 
@@ -595,11 +595,11 @@ Template Name: Formatting
                 </div>
                 <div class="large-12 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="row">
   <div class="small-3 small-centered columns">3 centered</div>
 </div>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>	
                 
@@ -615,12 +615,12 @@ Template Name: Formatting
                 </div>
                 <div class="large-12 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="row">
   <div class="large-1 columns">1</div>
   <div class="large-9 large-offset-2 columns">9, offset 2</div>
 </div>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>	
             <hr>
@@ -639,13 +639,13 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="small-block-grid-3">
   <li><img class="th" src="http://placehold.it/1200x800"></li>
   <li><img class="th" src="http://placehold.it/1200x800"></li>
   <li><img class="th" src="http://placehold.it/1200x800"></li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <p>
@@ -665,7 +665,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-6">
   <li><img class="th" src="http://placehold.it/1200x800"></li>
   <li><img class="th" src="http://placehold.it/1200x800"></li>
@@ -674,7 +674,7 @@ Template Name: Formatting
   <li><img class="th" src="http://placehold.it/1200x800"></li>
   <li><img class="th" src="http://placehold.it/1200x800"></li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <hr>
@@ -703,7 +703,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" data-dropdown="drop1">Has Dropdown</a>
 <ul id="drop1" class="f-dropdown" data-dropdown-content>
   <li><a href="#">This is a link</a></li>
@@ -714,7 +714,7 @@ Template Name: Formatting
 <div id="drop2" data-dropdown-content class="f-dropdown content">
   <p>Some text that people will think is awesome! Some text that people will think is awesome! Some text that people will think is awesome!</p>
 </div>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <h3>Advanced</h3>
@@ -739,7 +739,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" class="button" data-dropdown="drop">Link Dropdown &raquo;</a>
 <ul id="drop" class="small content f-dropdown" data-dropdown-content>
   <li><a href="#">This is a link</a></li>
@@ -753,7 +753,7 @@ Template Name: Formatting
   <li><a href="#">This is another</a></li>
   <li><a href="#">Yet another</a></li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <h3>Hoverable Dropdown Option</h3>
@@ -772,7 +772,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" data-dropdown="hover1" data-options="is_hover:true">Has Hover Dropdown</a>
     
 <ul id="hover1" class="f-dropdown" data-dropdown-content>
@@ -780,7 +780,7 @@ Template Name: Formatting
   <li><a href="#">This is another</a></li>
   <li><a href="#">Yet another</a></li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -803,7 +803,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="progress">
   <span class="meter"></span>
 </div>
@@ -816,7 +816,7 @@ Template Name: Formatting
 <div class="progress round">
   <span class="meter" style="width: 75%"></span>
 </div>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>
@@ -850,7 +850,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <dl class="accordion" data-accordion>
   <dd>
 	<a href="#panel1">Accordion 1</a>
@@ -871,7 +871,7 @@ Template Name: Formatting
     </div>
   </dd>
 </dl>					
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <hr>
@@ -905,7 +905,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <dl class="tabs" data-tab>
   <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
   <dd><a href="#panel2-2">Tab 2</a></dd>
@@ -926,7 +926,7 @@ Template Name: Formatting
     <p>Fourth panel content goes here...</p>
   </div>
 </div>						
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>		
                 
@@ -957,7 +957,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-12 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <dl class="tabs vertical" data-tab>
   <dd class="active"><a href="#panel1a">Tab 1</a></dd>
   <dd><a href="#panel2a">Tab 2</a></dd>
@@ -978,24 +978,106 @@ Template Name: Formatting
     <p>Panel 4 content goes here.</p>
   </div>
 </div>					
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <hr>	
             <a name="media"></a>
-            <h2 data-magellan-destination="media">Image Slider</h2>
+            <h1 data-magellan-destination="media">Sliders</h1>
             <p>
-                For our image sliders, we are using <a href="http://kenwheeler.github.io/slick/" target="_blank">Slick</a>. This slider is responsive, and has many options to make slider implementation easy.
-                
-                Below is an example which shows the slider that appears on the Home Page. You will see that as you shrink and grow your browser window, the slider will responsive react to the browser size. 
+                For our image sliders, we are using <a href="http://kenwheeler.github.io/slick/" target="_blank">Slick</a>, and the Zurb Foundation Orbital Slider extension. 
+            <ul>
+                <li>The <strong>Slick Slider</strong> is responsive, and with various options that can be used in the .</li>
+                <li>The <strong>Orbital Slider</strong> is responsive, and has many options to make slider implementation easy.</li>
+                </ul>
+            <p> Below is an example which shows the slider that appears on the Home Page. You will see that as you shrink and grow your browser window, the slider will responsive react to the browser size. 
             </p>
             <div class="wide-container clearfix">
+                <h2>Slick Slider How-To</h2>
                 <div class="large-6 columns" style="line-height:2rem;">
-                    <h2>Example:</h2>
+                    <h3>Example:</h3>
                         <?php include (TEMPLATEPATH . '/library/includes/home-slide.php'); ?> 
                 </div>
                 <div class="large-6 columns">
-                    <h2>HTML:</h2>
+                    <h3>Usage Guide:</h3>
+                    <p>The example below is an example of how to dynamically pull posts into <strong>Slick Slider</strong>. This example will pull posts from the category "334" which is the category ID posts with the "Featured" category marked. You can change this easily by swapping the category ID with the one of your choice. </p>
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
+<div class="home-block-2-slider">
+    <div class="small-12 columns small-centered pad">
+        <div class="home-block-2-slider-scroll">
+                                     <div class="home-block-2-slider-block text-left">
+                <div class="home-slide-content text-left">    
+                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/07/Setting-Boundaries-Takes-Practice-e1405969176511-600x400.jpg');">
+                                             </div>
+                    <h3 class="home-block-2-slider-block-title">Setting Boundaries Takes Practice</h3>
+                        <p>Just as quitting drinking and using is an unfamiliar behavior for addicts, setting boundaries is unexplored territory for an addict’s […]</p>
+                    <div class="home-slide-read-more">
+                        <a href="../blog/setting-boundaries-takes-practice/" class="home-slide-read-more-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+                                    <div class="home-block-2-slider-block text-left">
+                <div class="home-slide-content text-left">    
+                                        <div class="home-slide-featured-image" style='background-position: center center; background-size: unset;'>
+                                         </div>
+                    <h3 class="home-block-2-slider-block-title">Movie Showing @ OBR</h3>
+                        <p>                            .   Join Us Saturday Nov […]</p>
+                    <div class="home-slide-read-more">
+                        <a href="../blog/movie-showing-obr/" class="home-slide-read-more-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+                                    <div class="home-block-2-slider-block text-left">
+                <div class="home-slide-content text-left">    
+                                        <div class="home-slide-featured-image" style='background-position: center center; background-size: unset;'>
+                                         </div>
+                    <h3 class="home-block-2-slider-block-title">Ocean Breeze Recovery & OneHealth</h3>
+                        <p>Ocean Breeze Recovery recently partnered up with OneHealth Solutions to aid and support recovery efforts.  Chat with others nationwide.  Help […]</p>
+                    <div class="home-slide-read-more">
+                        <a href="../blog/ocean-breeze-recovery-onehealth/" class="home-slide-read-more-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+                                    <div class="home-block-2-slider-block text-left">
+                <div class="home-slide-content text-left">    
+                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/07/Healthy-Boundaries-Are-Important-For-Families-e1404749097917.jpg');">
+                                             </div>
+                    <h3 class="home-block-2-slider-block-title">Healthy Boundaries Are Important For Families</h3>
+                        <p>Setting healthy boundaries is an important step in participating in an addict’s recovery. Alcoholism and drug abuse do not affect […]</p>
+                    <div class="home-slide-read-more">
+                        <a href="../blog/healthy-boundaries-important-families/" class="home-slide-read-more-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+                                    <div class="home-block-2-slider-block text-left">
+                <div class="home-slide-content text-left">    
+                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/08/Showing-Compassion-for-Addicts-Differ-From-Enabling-e1407786940834-600x400.jpg');">
+                                             </div>
+                    <h3 class="home-block-2-slider-block-title">Showing Compassion for Addicts Differ From Enabling</h3>
+                        <p>“What? You want me to show compassion for the addict? You’ve go to be kidding.” Such might be the initial […]</p>
+                    <div class="home-slide-read-more">
+                        <a href="../blog/showing-compassion-addicts-differ-enabling/" class="home-slide-read-more-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+                                    <div class="home-block-2-slider-block text-left">
+                <div class="home-slide-content text-left">    
+                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/08/Frank-Stallone-e1407184507322-600x400.jpg');">
+                                             </div>
+                    <h3 class="home-block-2-slider-block-title">Sylvester Stallone’s Brother Enters Rehab for Alcoholism</h3>
+                        <p>Frank Stallone, the 63-year-old younger brother to Sylvester Stallone, reportedly entered rehab for alcohol addiction. The actor and songwriter is […]</p>
+                    <div class="home-slide-read-more">
+                        <a href="../blog/sylvester-stallones-brother-enters-rehab-alcoholism/" class="home-slide-read-more-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+                         
+        </div>
+    </div>
+</div>
+                         ]]>                
+     </script>
+                    <h3>JS Code Snippet needed to initialize, or trigger Slick Slider</h3>
                     <pre type="syntaxhighlighter" class="brush: js">
 &lt;script type="text/javascript"&gt;
             $(document).ready(function(){
@@ -1037,6 +1119,7 @@ Template Name: Formatting
                 </div>		
             </div>
             <div class="wide-container clearfix">
+                <h2>Orbital Slider How-To</h2>
             <div class="medium-6 columns">
                 <ul class="example-orbit" data-orbit>
                     <li>
@@ -1091,7 +1174,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul data-orbit>
   <li data-orbit-slide="headline-1">
     <div>
@@ -1112,7 +1195,7 @@ Template Name: Formatting
     </div>
   </li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             </div>
@@ -1128,9 +1211,10 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">
+                                <![CDATA[
 <img class="th" src="http://placehold.it/1200x800">			
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <br>
@@ -1144,9 +1228,9 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <img class="th radius" src="http://placehold.it/1200x800">			
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <hr>
@@ -1163,11 +1247,11 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="flex-video">
 	<iframe width="420" height="315" src="//www.youtube.com/embed/aiBt44rrslw" frameborder="0" allowfullscreen></iframe>
 </div>		
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <hr>
@@ -1186,13 +1270,13 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="small-block-grid-3 clearing-thumbs" data-clearing>
   <li><a class="th" href="http://placehold.it/1200x800"><img src="http://placehold.it/1200x800"></a></li>
   <li><a class="th" href="http://placehold.it/1200x800"><img src="http://placehold.it/1200x800"></a></li>
   <li><a class="th" href="http://placehold.it/1200x800"><img src="http://placehold.it/1200x800"></a></li>
 </ul>		
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
                 
@@ -1215,7 +1299,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" data-reveal-id="myModal" data-reveal>Click Me For A Modal</a>
 <div id="myModal" class="reveal-modal" data-reveal>
   <h2>Awesome. I have it.</h2>
@@ -1223,7 +1307,7 @@ Template Name: Formatting
   <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
   <a class="close-reveal-modal">&#215;</a>
 </div>			
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <p>
@@ -1251,7 +1335,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" data-reveal-id="firstModal" class="radius button">Example Modal…</a>
 <div id="firstModal" class="reveal-modal" data-reveal>
   <h2>This is a modal.</h2>
@@ -1268,7 +1352,7 @@ Template Name: Formatting
   </div>
   <a class="close-reveal-modal">×</a>
 </div>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <p>
@@ -1287,7 +1371,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <a href="#" data-reveal-id="myModal2" data-reveal>Click Me For A Modal</a>
 <div id="myModal2" class="reveal-modal tiny" data-reveal>
   <h2>Awesome. I have it.</h2>
@@ -1295,7 +1379,7 @@ Template Name: Formatting
   <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
   <a class="close-reveal-modal">&#215;</a>
 </div>			
-                        </textarea></code>
+                         ]]>                </script>
                 </div>		
             </div>
             <hr>
@@ -1310,12 +1394,12 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="panel">
   <h5>This is a regular panel.</h5>
   <p>It has an easy to override visual style, and is appropriately subdued.</p>
 </div>	
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <div class="row">
@@ -1328,15 +1412,15 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <div class="panel callout radius">
   <h5>This is a callout panel.</h5>
   <p>It's a little ostentatious, but useful for important content.</p>
 </div>		
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
-            <div class="row">
+            <div class="row pad">
                 <div class="large-6 columns">
                     <h3><small>V-card</small></h3>
                     <ul class="vcard">
@@ -1349,7 +1433,7 @@ Template Name: Formatting
                 </div>
                 <div class="large-6 columns">
                     <h3><small>HTML</small></h3>	
-                    <code><textarea style="height:120px;">
+                    <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
 <ul class="vcard">
   <li class="fn">Gaius Baltar</li>
   <li class="street-address">123 Colonial Ave.</li>
@@ -1357,19 +1441,22 @@ Template Name: Formatting
   <li><span class="state">Caprica</span>, <span class="zip">12345</span></li>
   <li class="email"><a href="#">g.baltar@cmail.com</a></li>
 </ul>
-                        </textarea></code>
+                         ]]>                </script>
                 </div>
             </div>
             <hr>                
         </div><!-- end left-content_block -->
         <div class="wide-container pad clearfix">
-            <h1>Facility Blocks</h1>
+            <h1>Content Blocks</h1>
+            <div class="row">
+            <h2>Page Block 1</h2>
+            <p>This block is currently used on Single Facility pages.</p>
             <div class="medium-6 columns no-space">
-                <h2>Example:</h2>
-                <ul>
+                <h4>Example:</h4>
+                <ul class="page-block">
                     <li class="page-block-1">
-                        <div class="page-block-content">
-                            <h5 class="text-center">Residential Treatment</h5>
+                        <div class="page-block-1-content">
+                            <h5 class="text-center">Lorem Ipsum Galactus</h5>
                             <div class="page-block-text">
                                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
@@ -1379,13 +1466,13 @@ Template Name: Formatting
                 </ul>
             </div>
             <div class="medium-6 columns">
-                <h2>HTML:</h2>
+                <h4>HTML:</h4>
                 <script type="syntaxhighlighter" class="brush: php">
                             <![CDATA[
-<ul>
+<ul class="page-block">
     <li class="page-block-1">
-        <div class="page-block-content" data-equalizer-watch>
-            <h5 class="text-center">Residential Treatment</h5>
+        <div class="page-block-1-content">
+            <h5 class="text-center">Lorem Ipsum Galactus</h5>
             <div class="page-block-text">
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
@@ -1396,6 +1483,48 @@ Template Name: Formatting
                                             ]]>
                 </script>
             </div>
+        </div>
+            <div class="row pad">
+            <h2>Page Block 2</h2>
+            <p>This block is currently used on Single Facility pages.</p>
+            <div class="medium-6 columns no-space">
+                <h4>Example:</h4>
+                <ul class="page-block">
+                    <li class="page-block-2">
+                        <div class="page-block-2-content text-center">
+                            <div class="page-block-2-top" style="background: url('../wp-content/uploads/2014/12/home-main-img.png');">
+                                <button class="text-center">Lorem Ipsum Galactus</button>
+                                <div class="page-block-2-overlay"></div>
+                            </div>
+                            <div class="page-block-text text-left">
+                                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="medium-6 columns">
+                <h4>HTML:</h4>
+                <script type="syntaxhighlighter" class="brush: php">
+                            <![CDATA[
+<ul class="page-block">
+    <li class="page-block-2">
+        <div class="page-block-2-content text-center">
+        /*Replace the url below with the image you upload. You should only have to include the url after the "/uploads/" portion.*/
+            <div class="page-block-2-top" style="background: url('../wp-content/uploads/2014/12/home-main-img.png');">
+                <button class="text-center">Lorem Ipsum Galactus</button>
+                <div class="page-block-2-overlay"></div>
+            </div>
+            <div class="page-block-text text-left">
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
+            </div>
+        </div>
+    </li>
+</ul>
+                                            ]]>
+                </script>
+            </div>
+        </div>
         </div>
 <?php endwhile; endif; ?>
     </div><!-- end content -->

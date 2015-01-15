@@ -1,0 +1,10 @@
+/*
+Styling for Ocean Breeze Formatting Page
+*/
+/* 
+    Created on : Jan 14, 2015, 10:50:02 AM
+    Author     : hubertchang
+*/
+.page-template-template-formatting .slick-next,.page-template-template-formatting .slick-prev{background: #000;}
+.page-template-template-formatting .slick-next:hover,.page-template-template-formatting .slick-prev:hover{background: #FFF;}
+footer{margin-top: 10em !important;}
