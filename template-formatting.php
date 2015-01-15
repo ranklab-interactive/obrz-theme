@@ -996,87 +996,59 @@ Template Name: Formatting
                 <h2>Slick Slider How-To</h2>
                 <div class="large-6 columns" style="line-height:2rem;">
                     <h3>Example:</h3>
-                        <?php include (TEMPLATEPATH . '/library/includes/home-slide.php'); ?> 
+                        <div class="slick-slider">
+                            <div>
+                                <h3>Slide 1</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            </div>
+                            <div>
+                                <h3>Slide 2</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            </div>
+                            <div>
+                                <h3>Slide 3</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            </div>
+                            <div>
+                                <h3>Slide 4</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            </div>
+                            <div>
+                                <h3>Slide 5</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            </div>
+                            <div>
+                                <h3>Slide 6</h3>
+                                <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            </div>
+                        </div>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.slick-slider').slick({
+                                infinite: true,
+                                slidesToShow: 3,
+                                slidesToScroll: 3
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="large-6 columns">
                     <h3>Usage Guide:</h3>
                     <p>The example below is an example of how to dynamically pull posts into <strong>Slick Slider</strong>. This example will pull posts from the category "334" which is the category ID posts with the "Featured" category marked. You can change this easily by swapping the category ID with the one of your choice. </p>
+                    <h5>Putting Together Your Slide</h5>
+                    <p>Each individual slide must be wrapped by the "</p>
                     <script type="syntaxhighlighter" class="brush: php">                            <![CDATA[
-<div class="home-block-2-slider">
-    <div class="small-12 columns small-centered pad">
-        <div class="home-block-2-slider-scroll">
-                                     <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/07/Setting-Boundaries-Takes-Practice-e1405969176511-600x400.jpg');">
-                                             </div>
-                    <h3 class="home-block-2-slider-block-title">Setting Boundaries Takes Practice</h3>
-                        <p>Just as quitting drinking and using is an unfamiliar behavior for addicts, setting boundaries is unexplored territory for an addict’s […]</p>
-                    <div class="home-slide-read-more">
-                        <a href="../blog/setting-boundaries-takes-practice/" class="home-slide-read-more-link">Read More</a>
-                    </div>
-                </div>
-            </div>
-                                    <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                                        <div class="home-slide-featured-image" style='background-position: center center; background-size: unset;'>
-                                         </div>
-                    <h3 class="home-block-2-slider-block-title">Movie Showing @ OBR</h3>
-                        <p>                            .   Join Us Saturday Nov […]</p>
-                    <div class="home-slide-read-more">
-                        <a href="../blog/movie-showing-obr/" class="home-slide-read-more-link">Read More</a>
-                    </div>
-                </div>
-            </div>
-                                    <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                                        <div class="home-slide-featured-image" style='background-position: center center; background-size: unset;'>
-                                         </div>
-                    <h3 class="home-block-2-slider-block-title">Ocean Breeze Recovery & OneHealth</h3>
-                        <p>Ocean Breeze Recovery recently partnered up with OneHealth Solutions to aid and support recovery efforts.  Chat with others nationwide.  Help […]</p>
-                    <div class="home-slide-read-more">
-                        <a href="../blog/ocean-breeze-recovery-onehealth/" class="home-slide-read-more-link">Read More</a>
-                    </div>
-                </div>
-            </div>
-                                    <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/07/Healthy-Boundaries-Are-Important-For-Families-e1404749097917.jpg');">
-                                             </div>
-                    <h3 class="home-block-2-slider-block-title">Healthy Boundaries Are Important For Families</h3>
-                        <p>Setting healthy boundaries is an important step in participating in an addict’s recovery. Alcoholism and drug abuse do not affect […]</p>
-                    <div class="home-slide-read-more">
-                        <a href="../blog/healthy-boundaries-important-families/" class="home-slide-read-more-link">Read More</a>
-                    </div>
-                </div>
-            </div>
-                                    <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/08/Showing-Compassion-for-Addicts-Differ-From-Enabling-e1407786940834-600x400.jpg');">
-                                             </div>
-                    <h3 class="home-block-2-slider-block-title">Showing Compassion for Addicts Differ From Enabling</h3>
-                        <p>“What? You want me to show compassion for the addict? You’ve go to be kidding.” Such might be the initial […]</p>
-                    <div class="home-slide-read-more">
-                        <a href="../blog/showing-compassion-addicts-differ-enabling/" class="home-slide-read-more-link">Read More</a>
-                    </div>
-                </div>
-            </div>
-                                    <div class="home-block-2-slider-block text-left">
-                <div class="home-slide-content text-left">    
-                                        <div class="home-slide-featured-image" style="background-image: url('../wp-content/uploads/2014/08/Frank-Stallone-e1407184507322-600x400.jpg');">
-                                             </div>
-                    <h3 class="home-block-2-slider-block-title">Sylvester Stallone’s Brother Enters Rehab for Alcoholism</h3>
-                        <p>Frank Stallone, the 63-year-old younger brother to Sylvester Stallone, reportedly entered rehab for alcohol addiction. The actor and songwriter is […]</p>
-                    <div class="home-slide-read-more">
-                        <a href="../blog/sylvester-stallones-brother-enters-rehab-alcoholism/" class="home-slide-read-more-link">Read More</a>
-                    </div>
-                </div>
-            </div>
-                         
-        </div>
-    </div>
+<div class="slick-slider">
+  <div>your content</div>
+  <div>your content</div>
+  <div>your content</div>
+  <div>your content</div>
+  <div>your content</div>
+  <div>your content</div>
 </div>
                          ]]>                
      </script>
+     
                     <h3>JS Code Snippet needed to initialize, or trigger Slick Slider</h3>
                     <pre type="syntaxhighlighter" class="brush: js">
 &lt;script type="text/javascript"&gt;

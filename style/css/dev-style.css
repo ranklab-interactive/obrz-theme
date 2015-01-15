@@ -51,6 +51,9 @@ li.page-block-2{list-style: none;}
 
 ul.page-block{margin: 0px}
 
+/*//___Basic Slick Slider Styling___\\*/
+.slick-slide{padding: 3em;}
+
 /* (========= Section Styling  =============) */
 .page-heading{padding: 6em 0 3em}
 /*//___Front Page Styling___\\*/
@@ -161,7 +164,6 @@ footer{background: #1f6aa6;}
 #facility-description ul li a:after{content:'\27a3';color:#f27527;float:right;font-size:2em;margin-top:-0.5em}
 .facility-gallery{display:flex;flex-flow:row wrap;min-height:100%}
 .facility-gallery > div{}
-.facility-gallery-slider-block > .slick-list{width:100%; margin: 0 auto;}
 .facility-gallery-image-block{background-position:center center;background-size:cover;display:flex;height:100%;width:100%}
 
 /* (========= Sidebar  =============) */
@@ -180,20 +182,20 @@ footer{background: #1f6aa6;}
 
 /*//___Slick Slider Settings___\\*/
 /*//___Home Block 2 Slider___\\*/
-.slick-list{width:91.666667%; margin: 0 auto;}
-.slick-dots{margin:0}
-.slick-prev{left:0}
-.slick-next{right:0}
-.slick-prev,.slick-next{background:transparent;bottom:0;color:#FFF;margin:0 3px;padding:25px;transition:all .5s ease}
-.slick-prev{border-radius:25px}
-.slick-next{border-radius:25px}
-.slick-prev:hover,.slick-next:hover{background:#FFF;color:#000}
-.slick-prev:before,.slick-next:before{font-family:'Cabin';font-size:35px;line-height:0;color:inherit;margin:0 6px;position:absolute}
-.slick-prev:before{content:'\FF1C';left:0}
-.slick-next:before{content:'\FF1E';right:0}
-.slick-next:focus,.slick-prev:focus{background-color:dimgray;color:#FFF}
-.slick-dots li button:before{font-family:"Cabin";font-size:46px; color: #FFF;}
-.slick-dots li.slick-active button:before{color:#FFF;opacity:.75}
+.home-block-2-slider .slick-list{width:91.666667%; margin: 0 auto;}
+.home-block-2-slider .slick-dots{margin:0}
+.home-block-2-slider .slick-prev{left:0}
+.home-block-2-slider .slick-next{right:0}
+.home-block-2-slider .slick-prev, .home-block-2-slider .slick-next{background:transparent;bottom:0;color:#FFF;margin:0 3px;padding:25px;transition:all .5s ease}
+.home-block-2-slider .slick-prev{border-radius:25px}
+.home-block-2-slider .slick-next{border-radius:25px}
+.home-block-2-slider .slick-prev:hover, .home-block-2-slider .slick-next:hover{background:#FFF;color:#000}
+.home-block-2-slider .slick-prev:before, .home-block-2-slider .slick-next:before{font-family:'Cabin';font-size:35px;line-height:0;color:inherit;margin:0 6px;position:absolute}
+.home-block-2-slider .slick-prev:before{content:'\FF1C';left:0}
+.home-block-2-slider .slick-next:before{content:'\FF1E';right:0}
+.home-block-2-slider .slick-next:focus, .home-block-2-slider .slick-prev:focus{background-color:dimgray;color:#FFF}
+.home-block-2-slider .slick-dots li button:before{font-family:"Cabin";font-size:46px; color: #FFF;}
+.home-block-2-slider .slick-dots li.slick-active button:before{color:#FFF;opacity:.75}
 
 /*//___Featured Facility Styling___\\*/
 [data-featured*='1']{background: #000;}
@@ -272,11 +274,26 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
     #main-nav ul li{margin: 0.5em; padding-right: 1em; }
     .navigation-callout:before{display: none;}
     #home-featured-image-container .wide-featured-image{margin-top: 0px;padding: 20% 0;background-position: center top;}
-    .facility-gallery-slider-block ul.slick-dots{background: #f27527; bottom: 0px !important;}
-    .facility-gallery-slider-scroll .slick-slider{margin-bottom: 0px;}
     .footer-block-3{padding: 1.5em;}
-    #social-media ul{border-top: 1px solid #FFF; border-bottom: 1px solid #FFF;}
-    #social-media ul li:last-child{border-right: 1px #FFF solid;}
+    #social-media {padding: 0}
+    #social-media ul{border: 1px #FFF solid;margin: 0;}
+    #social-media ul li{background: transparent; transition: background 0.5s ease;}
+    #social-media ul li:first-child{border-left: 0px #FFF solid;}
+    #social-media ul li:last-child{border-right: 0px #FFF solid;}
+    #social-media ul li:hover{background: #FFF;}
+    #social-media ul li img{padding:5% 10%}
+    
+    .facility-gallery-slider-block > .slick-list{width:100%; margin: 0 auto;}
+    .facility-gallery-slider-block ul.slick-dots{background: #f27527; bottom: 0px !important;margin: 0;}
+    .facility-gallery-slider-block ul.slick-dots li.slick-active button:before{color: #65adcc;}
+    .facility-gallery-slider-block ul.slick-dots li button:before{font-size: 3rem; top: auto;color: #FFF;}
+    .facility-gallery-slider-block ul.slick-dots li{height: 1.75rem;}
+    .facility-gallery-slider-scroll .slick-slider{margin-bottom: 0px;}
+    .facility-gallery-slider-scroll .slick-slide{padding: 0;}
+    .facility-gallery-slider-block>.slick-prev,.facility-gallery-slider-block>.slick-next{margin:0;padding:15px 35px}
+    .facility-gallery-slider-block > .slick-next{right: 0}
+    .facility-gallery-slider-block > .slick-prev:before, .facility-gallery-slider-block > .slick-next:before{font-size: 4rem;line-height: 0;}
+    .facility-gallery-slider-block > .slick-prev{left: 0}
 }
 
 /*Viewpoint for Only in Small and Down*/
@@ -296,6 +313,9 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
     .nsv-side-container *, .nsv-sidebar *{color: #FFF;}
     .nsv-side-container button{background: #000000}
     a.big-phone-number{font-size: 2em;}
+    .testimonials-content>.testimonial-quote>p{font-size: 1.5rem;}
+    .testimonials-content>.testimonial-quote>p:before{color:#65adcc;opacity:0.5;position:absolute;top:0.3em}
+    .testimonials-content{padding: 1.5em;}
     #home-featured-image-container .featured-image-text span{font-size: 2em; line-height: 1.81em;}
     .home-block-2-slider-block{padding: 0px;}
     .slick-list{width: 100%;}
@@ -304,12 +324,6 @@ html.mm-front .mm-slideout{overflow-y:scroll;z-index: auto !important;}
     .slick-dots li button:before{opacity: 1;}
     .slick-dots li.slick-active button:before{color: #2693c2;}
     .heading-share-block #social-media ul, .heading-share-block #social-media{margin: 0; padding: 0;}
-    #social-media ul{border: 1px #FFF solid;margin: 1.5em 0;}
-    #social-media ul li{background: transparent; transition: background 0.5s ease;}
-    #social-media ul li:first-child{border-left: 0px #FFF solid;}
-    #social-media ul li:last-child{border-right: 0px #FFF solid;}
-    #social-media ul li:hover{background: #FFF;}
-    #social-media ul li img{padding:5% 10%}
     
     /*//___All Responsive Menu Styling Goes Here___\\*/
     html.mm-opened .mm-page {z-index: 9999999;}
