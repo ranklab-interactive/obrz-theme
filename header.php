@@ -2,15 +2,15 @@
 <html <?php language_attributes(); ?> class="no-js">
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
-        <title><?php the_title(); ?></title>
+        <title><?php wp_title(); ?></title>
         
         <!-- dns prefetch -->
         <link href="//www.google-analytics.com" rel="dns-prefetch">
-        
+            
         <!-- meta -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        
+            
         <!-- icons -->
         <link href="<?php echo get_template_directory_uri(); ?>/style/images/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/style/images/icons/touch.png" rel="apple-touch-icon-precomposed">
@@ -24,9 +24,9 @@
 <?php wp_head(); ?>
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/jquery.mmenu.css" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/jquery.mmenu.positioning.css" />
-    <style type="text/css">
-    nav #my-menu{display:none}
-    </style>
+        <style type="text/css">
+            nav #my-menu{display:none}
+        </style>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.mmenu.min.js"></script>
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style/css/dev-style.css"/>
     </head>
@@ -65,20 +65,20 @@
                                 </div>
                             </div>
                             <nav id="my-menu" class="row" role="navigation">
-                                <?php wp_nav_menu(array('menu' => 'Main Menu', 'menu_class' => 'main-more-nav-menu', 'depth' => 1, 'items_wrap' => '<div class="menu-more-nav-header medium-12 columns small-centered"><ul>%3$s</ul></div>')); ?>
+                                <?php wp_nav_menu(array('menu' => 'More Main Menu', 'menu_class' => 'main-more-nav-menu', 'depth' => 1, 'items_wrap' => '<div class="menu-more-nav-header medium-12 columns small-centered"><ul>%3$s</ul></div>')); ?>
                             </nav>
                             <nav id="my-responsive-menu" role="navigation">
                                 <ul>
                                     <li><a href="#">Link 1</a></li>
                                     <li><a href="#">Link 2</a></li>
                                     <li><a href="#">Link 3</a>
-                                    <ul>
-                                    <li><a href="#">Link 1</a></li>
-                                    <li><a href="#">Link 2</a></li>
-                                    <li><a href="#">Link 3</a></li>
-                                    <li><a href="#">Link 4</a></li>
-                                    <li><a href="#">Link 5</a></li>
-                                </ul></li>
+                                        <ul>
+                                            <li><a href="#">Link 1</a></li>
+                                            <li><a href="#">Link 2</a></li>
+                                            <li><a href="#">Link 3</a></li>
+                                            <li><a href="#">Link 4</a></li>
+                                            <li><a href="#">Link 5</a></li>
+                                        </ul></li>
                                     <li><a href="#">Link 4</a></li>
                                     <li><a href="#">Link 5</a></li>
                                 </ul>

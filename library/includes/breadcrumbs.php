@@ -3,7 +3,7 @@
     if (is_page() && !is_front_page() || is_single() || is_category()) {
         echo '<li id="breadcrumb">';
         echo '<a href="'.get_bloginfo('url').'">Home</a>';
- 		if (is_single()) {
+ 		if (get_post_type() == 'post') {
         	echo '<li><a href="/blog/">Blog</a></li>';	
         }else{
         
@@ -26,6 +26,11 @@
         if (is_single('blog_posts')) {
             $category = get_the_category();
             echo '<li><a href="'.get_category_link($category[0]->cat_ID).'">'.$category[0]->cat_name.'</a></li>';
+        }
+        
+        if (get_post_type() == 'staff') {
+            $category = get_the_category();
+            echo '<li><a href="/staff/">Staff</a></li>';
         }
  
         if (is_category()) {

@@ -7,7 +7,7 @@
 get_header();
 ?>
 <div class="facility-information">
-    <div class="facility-information-heading small-text-center medium-text-left  page-heading">
+    <div class="small-heading small-text-center medium-text-left  page-heading">
         <div class="row">
             <div class="small-12 columns">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>	

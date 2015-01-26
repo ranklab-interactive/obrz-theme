@@ -32,8 +32,8 @@
         <div class="small-12 columns footer-block-2 pad" data-equalizer>
             <div class="row pad">
                 <?php wp_nav_menu(array("menu" => "Footer Menu 1", 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns"><h3>ABOUT US</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
-                <?php wp_nav_menu(array('menu' => 'Footer Menu 2', 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns"><h3>WHAT WE TREAT</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
-                <?php wp_nav_menu(array("menu" => "Footer Menu 3", 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns "><h3>TREATMENT</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
+                <?php wp_nav_menu(array('menu' => 'Footer Menu 2', 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns"><h3>SERVICES</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
+                <?php wp_nav_menu(array("menu" => "Footer Menu 3", 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns "><h3>RESOURCES</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
                                 <?php wp_nav_menu(array("menu" => "Footer Menu 4", 'container' => 'false', 'items_wrap' => '<div class="medium-6 large-3 columns"><h3>QUICK LINKS</h3><ul class="no-bullet">%3$s</ul></div>')); ?>
                 
             </div>
@@ -46,16 +46,16 @@
                 <div class="row">
                     <ul class="small-text-center small-block-grid-5">
                         <li>
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-fb.png" /></a>
+                            <a href="https://www.facebook.com/OceanBreezeRecovery" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-fb.png" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-twitter.png" /></a>
+                            <a href="https://twitter.com/ocean_breeze1" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-twitter.png" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-gplus.png" /></a>
+                            <a href="https://plus.google.com/+OceanbreezerecoveryOrg/posts" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-gplus.png" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-pin.png" /></a>
+                            <a href="https://www.pinterest.com/oceanbreezefl/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-pin.png" /></a>
                         </li>
                         <li>
                             <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/style/images/footer-yt.png" /></a>

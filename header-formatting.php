@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html <?php language_attributes(); ?> class="no-js">
+    <!--This is the Header Specifically used for the formatting page.-->
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
         <title><?php the_title(); ?></title>

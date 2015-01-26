@@ -5,6 +5,11 @@ Styling for Ocean Breeze Formatting Page
     Created on : Jan 14, 2015, 10:50:02 AM
     Author     : hubertchang
 */
-.page-template-template-formatting .slick-next,.page-template-template-formatting .slick-prev{background: #000;}
-.page-template-template-formatting .slick-next:hover,.page-template-template-formatting .slick-prev:hover{background: #FFF;}
-footer{margin-top: 10em !important;}
+
+h1.new-section{background:none repeat scroll 0 0 #f27527;color: #FFF;margin-left:-0.9375rem;padding:1em .9375rem;margin-top:1em;margin-bottom:1.25em}
+h2.section-sub{background:none repeat scroll 0 0 #2693c2;color: #FFF;margin-left:-0.9375rem;padding:1em .9375rem;margin-top:1em;margin-bottom:1.25em}
+
+.slick-slider-demo{background: #000;line-height:2rem; color: #FFF;}
+.slick-slider-demo h3{color: inherit;}
+.orbit-container{background: #000}
+.orbit-container h2, .orbit-container h3{color: #FFF;background: transparent;}

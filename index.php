@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 <?php
 // Silence is golden.
-=======
+        ?>
 <?php get_header(); ?>
 <div class="row">
 

@@ -28,6 +28,34 @@ function post_type_facilities() {
 }
 add_action( 'init', 'post_type_facilities' );
 
+//Staff Custom Post Type
+function post_type_staff() {
+    $labels = array(
+        'name' => __( 'Staff' ),
+        'singular_name' => __( 'Staff Member' ),
+        'add_new' => __( 'Add New Staff Member' ),
+        'add_new_item' => __( 'Add New Staff Member' ),
+        'edit_item' => __( 'Edit Staff Member' ),
+        'new_item' => __( 'Add New Staff Member' ),
+        'view_item' => __( 'View Staff Member' ),
+        'search_items' => __( 'Search Staff' ),
+        'not_found' => __( 'No Staff Found' ),
+        'not_found_in_trash' => __( 'No Staff found in trash' )
+    );
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'supports' => array( 'title', 'editor', 'thumbnail', 'comments', 'excerpt', 'revisions' ),
+        'capability_type' => 'post',
+        'rewrite' => array("slug" => "staff", "with_front" => false), // Permalinks format
+        'menu_position' => 5,
+        'taxonomies' => 'staff',
+        'has_archive' => true
+    );
+    register_post_type( 'staff', $args );
+}
+add_action( 'init', 'post_type_staff' );
+
 //Testimonials Custom Post Type
 function post_type_testimonials() {
     $labels = array(

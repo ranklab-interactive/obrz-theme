@@ -17,7 +17,7 @@ function facility_type_tax() {
 }
  register_taxonomy_for_object_type( 'facility-type', 'facilities' );
  
-// Sample Taxonomy
+// Testimonial Taxonomy
 add_action( 'init', 'testimonial_tax' );
 
 function testimonial_tax() {
@@ -32,5 +32,22 @@ function testimonial_tax() {
 	);
 }
  register_taxonomy_for_object_type( 'testimonial-type', 'testimonials' );
+
+// Staff Taxonomy
+add_action( 'init', 'staff_tax' );
+
+function staff_tax() {
+	register_taxonomy(
+		'staff-type',
+		'staff',
+		array(
+			'label' => __( 'Departments' ),
+			'rewrite' => array( 'slug' => 'staff-type' ),
+			'hierarchical' => true,
+                    'has_archive' => false
+		)
+	);
+}
+ register_taxonomy_for_object_type( 'staff-type', 'staff' );
 
 ?>
