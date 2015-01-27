@@ -121,12 +121,12 @@ ul.page-block{margin: 0px}
 .small-feature-image{}
 .small-feature-image>div{background-position:left top;background-repeat:no-repeat;background-size:contain;min-height: 20rem;}
 
+* [role=main]{margin-top: 3rem !important;}
+
 .full-width-background{background-size: cover; background-repeat: no-repeat;}
 .valign-middle-padding{padding: 3em 0;}
 .valign-middle-padding > h2{padding-bottom: 1em;}
 .valign-middle-padding button, .valign-middle-padding > p {margin-bottom: 0;}
-
-/*.page-template-template-full .wide-container > section > article > p{padding-left:.9375rem;padding-right:.9375rem}*/
 
 /*//___Social Media Share for Pages and Posts___\\*/
 .heading-share-block{background: #1f6aa6;}
@@ -222,6 +222,11 @@ footer{background: #1f6aa6;}
 .wide-featured-image.img-fixed{background-attachment: fixed;}
 .wide-featured-image.valign-middle{padding: 15% 0px;}
 
+/*//___Single Post Template___\\*/
+.postmeta{background: #b4b4b4;color: #FFF;}
+.postmeta > p.date{font-size: 2rem;}
+
+
 /*Facility Post*/
 .facility-introduction{background: #fafafa;}
 .facility-introduction-content{padding-bottom: 8em;}
@@ -236,27 +241,39 @@ footer{background: #1f6aa6;}
 .post-type-archive-staff .page-block-text > div > a.button{width: 100%;}
 
 /*//___Staff Single Page___\\*/
-/*//___Big Head___\\*/
-.page-template-template-bighead  #heading > p {margin-left: 0;}
 
+/*//___Big Head___\\*/
+.big-heading p {font-size: 2rem;}
+
+/*//___Contact Page___\\*/
+.page-template-template-contact .big-heading form.wpcf7-form{}
+.page-template-template-contact .big-heading form.wpcf7-form input.wpcf7-submit{width: 150px; border: none; color: #FFF; padding: 1rem 2rem;background: #f27527;font-size: 1rem;}
+.page-template-template-contact .big-heading form.wpcf7-form > div > p{text-align: right;}
+.page-template-template-contact .big-heading form.wpcf7-form > div > ul {list-style: none;margin: 0; color: #1f6aa6;font-family: 'Oswald';}
+.page-template-template-contact .big-heading form.wpcf7-form > div > ul > li {text-align: center;}
+.page-template-template-contact .big-heading form.wpcf7-form > div > ul > li > span{display: inline-block;vertical-align: top;}
+.page-template-template-contact .big-heading form.wpcf7-form > div > ul > li > span:first-of-type{width: 25%;text-align: right;margin-right: 3%;}
+.page-template-template-contact .big-heading form.wpcf7-form > div > ul > li > span.captcha{width: 100%;text-align: left;}
+.page-template-template-contact .big-heading form.wpcf7-form > div > ul > li > span.wpcf7-form-control-wrap{width: 70%;}
+.page-template-template-contact .big-heading .wpcf7{background: rgba(255,255,255,0.7);padding: 3rem;}
 
 /* (========= Sidebar  =============) */
 .side-nav li a:not(.button){background: #FFF; color: #000000;display: block;text-transform: uppercase;border: 1px solid #000000; padding: 0.5rem;}
 .side-nav li.current_page_item a:not(.button):hover, .side-nav li a:hover:not(.button), .side-nav li a:focus:not(.button){border: 1px solid #2693c2; color: #2693c2;background: unset;}
 .side-container .menu-sidebar-nav-container{background: #2693c2;}
-.side-container .menu-sidebar-nav-container ul.menu{margin-left: 2rem;padding: 2rem 0}
+.side-container .menu-sidebar-nav-container ul.menu{margin-bottom: 0;margin-left: 2rem;padding: 2rem 0}
 .side-container .menu-sidebar-nav-container ul.menu li{list-style: none;margin-bottom: 15px;}
 .side-container .menu-sidebar-nav-container ul.menu li a{color: #FFF;}
-.side-container  h3.form-title{background: #f27527; margin: 0;padding: 0.5rem 2rem; color: #FFF;}
+.side-container  h3.form-title{background: #f27527; margin: 0;padding: 3rem 2rem 0.5rem; color: #FFF;}
 .side-container .wpcf7{background: #f27527;padding:2rem;transition: ease 0.5s all;}
 .side-container form.wpcf7-form{color: #fff;text-align: center}
 .side-container form.wpcf7-form span.wpcf7-form-control-wrap{text-align: left;}
 .side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-text{}
-.side-container form.wpcf7-form input.wpcf7-submit{transition: ease 0.5s all;width: 100%; max-width: 250px;border: 2px solid #FFF; background: none;color: #FFF; padding: .75rem 2rem;}
-.side-container form.wpcf7-form input.wpcf7-submit:hover{border: 2px solid #1f6aa6; background: #1f6aa6;color: #FFF;}
+.side-container form.wpcf7-form input.wpcf7-submit{transition: ease 0.5s all;width: 100%; max-width: 250px;border: 1px solid #FFF; background: none;color: #FFF; padding: .75rem 2rem;}
+.side-container form.wpcf7-form input.wpcf7-submit:hover{border: 1px solid #1f6aa6; background: #1f6aa6;color: #FFF;}
 .side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-captchar{margin-top: 5px;}
-.side-container form.wpcf7-form span.wpcf7-form-control-wrap textarea.wpcf7-textarea, .side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-captchar, .side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-text{transition: ease 0.25s all;}
-.side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-captchar:hover, .side-container form.wpcf7-form span.wpcf7-form-control-wrap textarea.wpcf7-textarea:hover, .side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-text:hover, .side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-captchar:focus, .side-container form.wpcf7-form span.wpcf7-form-control-wrap textarea.wpcf7-textarea:focus, .side-container form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-text:focus{background: #65adcc;color: #FFF;}
+form.wpcf7-form span.wpcf7-form-control-wrap textarea.wpcf7-textarea, form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-captchar, form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-text{transition: ease 0.25s all;}
+ form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-captchar:hover, form.wpcf7-form span.wpcf7-form-control-wrap textarea.wpcf7-textarea:hover, form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-text:hover, form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-captchar:focus, form.wpcf7-form span.wpcf7-form-control-wrap textarea.wpcf7-textarea:focus, form.wpcf7-form span.wpcf7-form-control-wrap input.wpcf7-text:focus{background: #65adcc;color: #FFF;}
 div.wpcf7 img.ajax-loader{position: absolute;}
 
 

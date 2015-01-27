@@ -10,19 +10,10 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" data-equalizer>
         <section role="main" class="large-9 columns">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
             <article>
-                <!-- post details -->
-                <div class="postmeta">
-                    <p class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></p>
-                    
-                    <p class="categories"><?php _e( 'Categorised in: ' ); the_category(', '); // Separated by commas ?></p>
-                    <p class="author"><?php _e( 'This post was written by ' ); the_author(); ?></p>
-                </div><!-- end postmeta -->
-                <!-- /post details -->
-                    
                 <!-- post thumbnail -->
 	<?php
 	if ( has_post_thumbnail() ) {
@@ -31,12 +22,20 @@
 	?>
                 <!-- end post thumbnail -->
 	<?php the_content(); ?>
-	<?php comments_template(); ?>
             </article>
 <?php endwhile; endif; ?>
         </section>
-<?php get_sidebar(); ?>
-    
+<!--        <div class="large-2 columns postmeta" data-equalizer-watch> post details 
+            <p class="date"><//?php the_time('F j'); ?></p>
+            <div class="post-categories">
+                <p class="categories"><//?php _e( 'Categorized in: <br />' ); the_category(', '); // Separated by commas ?></p>
+            </div>
+             /post details 
+        </div> end postmeta -->
+        <div class="medium-5 large-3 side-container columns no-space" data-equalizer-watch>
+            <?php get_sidebar(); ?>
+        </div>
+        
     </div> <!-- #main -->
 </div>
 <?php get_footer(); ?>

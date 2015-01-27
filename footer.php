@@ -1,4 +1,4 @@
-<div class="wide-container">
+<div class="wide-container clearfix">
     <footer class="large-12 columns no-space">
         <div class="small-12 columns footer-block-1 pad text-center">
             <div class="row pad valign-middle">

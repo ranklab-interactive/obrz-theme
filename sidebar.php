@@ -1,4 +1,4 @@
-<aside role="complementary" class="small-12 columns">	
+<aside role="complementary" class="small-12 columns no-space">	
 <?php if (is_home() || $post->post_parent == '1') {?>
 		
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Default Sidebar') ) : ?>

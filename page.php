@@ -15,11 +15,11 @@ get_header(); ?>
         </div>
     </div>
 </div>
-<div role="main" class="large-12 main-content no-space columns">
+<div class="large-12 main-content no-space columns">
     <div class="row">
-        <div class="medium-7 large-9 columns">
+        <div class="medium-7 large-9 columns" role="main">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
-            <article class="pad">
+            <article>
                         <?php
                         if ( has_post_thumbnail() ) {
                                 the_post_thumbnail( 'large' );

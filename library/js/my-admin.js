@@ -13,7 +13,7 @@ $(function() {
     //The second selector is the ID of the metabox that you setup when creating the metabox in the meta-boxes.php file. 
     //The third selector will be the file name of the template you are changing. This will vary depending on how you name your file.
     $('#page_template').change(function() {
-        $('#bigheading_metaboxes').toggle($(this).val() == 'template-bighead.php');
+        $('#bigheading_metaboxes').toggle($(this).val() === 'template-bighead.php' || $(this).val() === 'template-contact.php');
     }).change();
 });
 })(jQuery);
