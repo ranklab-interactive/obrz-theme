@@ -29,7 +29,7 @@ Template Name: Homepage template
         <div data-equalizer-watch class="home-block-1-content">
             <h2 class="section white"><small>ADDICTION</small></h2>
             <h3 class="section white">Therapy</h3>
-            <span>At Ocean Breeze Recovery center we fully understand that each individual is unique and so are their circumstances. This is the very reason that we insist that each individual that embraces our drug treatment program has an individualized treatment plan. We meet individuals where they are on the road to recovery and help them develop the skills needed to live a sober life.</span>
+            <p>At Ocean Breeze Recovery center we fully understand that each individual is unique and so are their circumstances. This is the very reason that we insist that each individual that embraces our drug treatment program has an individualized treatment plan. We meet individuals where they are on the road to recovery and help them develop the skills needed to live a sober life.</p>
         </div>
         <a class="button invis-btn white" href="/addiction-therapy">Learn More</a>
     </div>
@@ -37,7 +37,7 @@ Template Name: Homepage template
         <div data-equalizer-watch class="home-block-1-content">
             <h2 class="section white"><small>RESIDENTIAL</small></h2>
             <h3 class="section white">Rehab</h3>
-            <span>Our substance abuse inpatient treatment is aimed to help those that call for medical stabilization, are a high risk for relapse, or are resistant to treatment. We offer the very best and most comprehensive inpatient substance abuse treatment made available. Clients in our residential program are monitored 24 hours a day and all their needs are provided for while they begin their recovery.</span>
+            <p>Our substance abuse inpatient treatment is aimed to help those that call for medical stabilization, are a high risk for relapse, or are resistant to treatment. We offer the very best and most comprehensive inpatient substance abuse treatment made available. Clients in our residential program are monitored 24 hours a day and all their needs are provided for while they begin their recovery.</p>
         </div>
         <a class="button invis-btn white" href="/drug-rehab/">Learn More</a>
     </div>

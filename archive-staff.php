@@ -3,8 +3,7 @@
  *
  * Ocean Breeze Staff Archive Template
  * 
- */
-     
+ */ 
 get_header(); ?>
 <div class="wide-container clearfix">
     <div class="small-heading small-text-center medium-text-left page-heading">

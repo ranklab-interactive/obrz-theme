@@ -1436,10 +1436,10 @@ Template Name: Formatting
                 <h2 class="section-sub">Full-Width Background Section</h2>
             <div class="medium-12 columns">
                 <h4>Example:</h4>
-                <div class="small-12 columns text-center no-space pad full-width-background" style="background-image: url('http://localhost:8888/obrz/wp-content/uploads/2015/01/wide-pier2.jpg'); background-position: center center;">
-                    <div class="valign-middle-padding">
+                <div class="text-center pad full-width-background full-width-section-1" style="background-image: url('http://localhost:8888/obrz/wp-content/uploads/2015/01/wide-pier2.jpg'); background-position: center center;">
+                    <div class="valign-middle-padding align-middle-margin">
                         <h2 class="section darkgray"><small>Facilities &amp; Amenities</small></h2>
-                        <button><a href="#">Take The Tour</a></button>
+                        <button><a href="/rehab-facility/virtual-tours/">Take The Tour</a></button>
                     </div>
                 </div>
             </div>
@@ -1447,10 +1447,10 @@ Template Name: Formatting
                 <h4>HTML:</h4>
                 <script type="syntaxhighlighter" class="brush: php">
                             <![CDATA[
-<div class="small-12 columns text-center no-space pad full-width-background" style="background-image: url('http://localhost:8888/obrz/wp-content/uploads/2015/01/wide-pier2.jpg'); background-position: center center;">
-    <div class="valign-middle-padding">
+<div class="text-center pad full-width-background full-width-section-1" style="background-image: url('http://localhost:8888/obrz/wp-content/uploads/2015/01/wide-pier2.jpg'); background-position: center center;">
+    <div class="valign-middle-padding align-middle-margin">
         <h2 class="section darkgray"><small>Facilities &amp; Amenities</small></h2>
-        <button><a href="#">Take The Tour</a></button>
+        <button><a href="/rehab-facility/virtual-tours/">Take The Tour</a></button>
     </div>
 </div>
     ]]>
@@ -1496,56 +1496,60 @@ Template Name: Formatting
                 <h2 class="section-sub">Heading Rich Block</h2>
             <div class="medium-6 columns">
                 <h4>Example:</h4>
-                <div class="clearfix pad">
-                    <div class="medium-12 columns small-centered">
-                        <div class="heading-rich-block row">
-                            <div class="heading-rich-block-top clearfix">
-                                <div class="large-7 columns heading-rich-block-text">
-                                    <h3 class="section darkgray"><small>Lorem Ipsum Galactus</small></h3>
-                                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
-                                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-                                </div>
-                                <div class="large-5 columns heading-rich-block-links">
-                                    <h5 class="text-center">Lorem Ipsum Galactus</h5>
-                                    <ul class="blueorange">
-                                        <li><a href="#">Link 1</a></li>
-                                        <li><a href="#">Link 1</a></li>
-                                        <li><a href="#">Link 1</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="heading-rich-block-cta clearfix">
-                                <div class="small-12 columns">Questions? We're here to help 888-123-4567</div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="clearfix">
+    <div class="small-12 columns small-centered">
+        <div class="heading-rich-block row">
+            <div class="heading-rich-block-top clearfix" data-equalizer>
+                <div class="large-7 columns heading-rich-block-text" data-equalizer-watch>
+                    <h3 class="section darkgray"><small>Getting The Help You Need</small></h3>
+                    <p>Ocean Breeze helps individuals free themselves from the control of alcoholism. Our treatment program is specifically designed for each client, in order to provide them with the help they need. Our alcohol rehab center offers a variety of treatment programs, based on the level of care that is needed.</p>
                 </div>
+                <div class="large-5 columns heading-rich-block-links" data-equalizer-watch>
+                    <h5 class="text-center">Additional Resources</h5>
+                    <ul class="blueorange">
+                        <li><a href="/alcohol-rehab/christian-alcohol-rehab/">Christian Rehab</a>
+                        </li>
+                        <li><a href="/alcohol-rehab/inpatient/">Inpatient Treatment</a>
+                        </li>
+                        <li><a href="/alcohol-rehab/long-term/">Long-Term Treatment</a>
+                        </li>
+                        <li><a href="/alcohol-rehab/outpatient/">Outpatient Treatment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="heading-rich-block-cta clearfix"><div class="small-12 columns">Questions? We're here to help 888-123-4567</div></div>
+        </div>
+    </div>
+</div>
             </div>
             <div class="medium-6 columns">
                 <h4>HTML:</h4>
                 <script type="syntaxhighlighter" class="brush: php">
                             <![CDATA[
 <div class="clearfix pad">
-    <div class="medium-12 columns small-centered">
+    <div class="medium-8 large-6 columns small-centered">
         <div class="heading-rich-block row">
-            <div class="heading-rich-block-top clearfix">
-                <div class="large-7 columns heading-rich-block-text">
-                    <h3 class="section darkgray"><small>Lorem Ipsum Galactus</small></h3>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+            <div class="heading-rich-block-top clearfix" data-equalizer>
+                <div class="large-7 columns heading-rich-block-text" data-equalizer-watch>
+                    <h3 class="section darkgray"><small>Getting The Help You Need</small></h3>
+                    <p>Ocean Breeze helps individuals free themselves from the control of alcoholism. Our treatment program is specifically designed for each client, in order to provide them with the help they need. Our alcohol rehab center offers a variety of treatment programs, based on the level of care that is needed.</p>
                 </div>
-                <div class="large-5 columns heading-rich-block-links">
-                    <h5 class="text-center">Lorem Ipsum Galactus</h5>
+                <div class="large-5 columns heading-rich-block-links" data-equalizer-watch>
+                    <h5 class="text-center">Additional Resources</h5>
                     <ul class="blueorange">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 1</a></li>
+                        <li><a href="/alcohol-rehab/christian-alcohol-rehab/">Christian Rehab</a>
+                        </li>
+                        <li><a href="/alcohol-rehab/inpatient/">Inpatient Treatment</a>
+                        </li>
+                        <li><a href="/alcohol-rehab/long-term/">Long-Term Treatment</a>
+                        </li>
+                        <li><a href="/alcohol-rehab/outpatient/">Outpatient Treatment</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="heading-rich-block-cta clearfix">
-                <div class="small-12 columns">Questions? We're here to help 888-123-4567</div>
-            </div>
+            <div class="heading-rich-block-cta clearfix"><div class="small-12 columns">Questions? We're here to help 888-123-4567</div></div>
         </div>
     </div>
 </div>

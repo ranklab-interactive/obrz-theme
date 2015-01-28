@@ -18,7 +18,7 @@ get_header(); ?>
     </div>
 </div>
 <div class="wide-container clearfix">
-    <div role="main" class="large-12 main-content columns no-space">
+    <div role="main" class="large-12 main-content columns">
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
             <article class="clearfix pad">
                 <?php the_content(); ?>
