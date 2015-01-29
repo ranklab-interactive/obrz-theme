@@ -36,8 +36,13 @@
             <header>
                 <div class="large-12 columns clearfix header-block">
                     <div class="row pad header-top-block">
-                        <div class="responsive-menu show-for-small-only left crossRotate">
-                            <a href="#my-responsive-menu" id="responsive-menu-button" class="resp-menu-close"></a>
+                        <div class="responsive-menu show-for-small-only left">
+                            <a href="#my-responsive-menu" id="responsive-menu-button" class="resp-menu-close">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
                         </div>
                         <div class="medium-3 columns">
                             <!-- logo -->

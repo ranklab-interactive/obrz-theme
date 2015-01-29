@@ -86,6 +86,7 @@
         $("#responsive-menu-button").click(function() {
             $("#my-responsive-menu").trigger("open.mm");
             $("#my-responsive-menu").trigger("close.mm");
+            $(this).toggleClass('open');
         });
         $("#my-menu").mmenu({         
             offCanvas: {
@@ -95,14 +96,6 @@
         });
         $("#more-menu-close").click(function() {
             $("#my-menu").trigger("close.mm");
-        });
-        $( ".crossRotate" ).click(function() {
-            //alert($( this ).css( "transform" ));
-            if (  $( this ).css( "transform" ) == 'none' ){
-                $(this).css("transform","rotate(180deg)");
-            } else {
-                $(this).css("transform","" );
-            }
         });
     });
 </script>

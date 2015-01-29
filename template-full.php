@@ -19,7 +19,7 @@ Template Name: Full
 <div class="wide-container clearfix">
     <section role="main" class="small-12 columns">
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>	
-<article>
+        <article class="small-12 columns">
 	<?php
 	if ( has_post_thumbnail() ) {
 		the_post_thumbnail( 'large' );

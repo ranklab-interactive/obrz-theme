@@ -25,9 +25,7 @@
                     $images = rwmb_meta('ranklab_facility-gallery', 'type=image&size=500x300'); 
                     foreach ($images as $image)
                         {
-                            echo "<div class='medium-6 columns no-space'><a href='{$image['full_url']}' title='{$image['title']}' class='thumbnail gallery' rel='thickbox'>"
-                            . "<div class='facility-gallery-image-block' style='background-image: url({$image['url']});'></div>"
-                            . "</a></div>";
+                            echo "<div class='medium-6 columns no-space facility-gallery-image-block' style='background-image: url({$image['url']});'><a href='{$image['full_url']}' title='{$image['title']}' class='thumbnail gallery' rel='thickbox'>". "</a></div>";
 }
 ?>
             </div>
